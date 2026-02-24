@@ -543,6 +543,76 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
 .no-start button {
   margin-top: 12px;
 }
+/* Profile picker */
+.profile-screen {
+  text-align: center;
+  padding: 60px 20px;
+}
+.profile-screen h2 { margin-bottom: 8px; }
+.profile-screen p { color: var(--text2); font-size: 0.9rem; margin-bottom: 20px; }
+.profile-screen input[type="text"] {
+  width: 100%;
+  max-width: 260px;
+  padding: 12px 14px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  background: rgba(255,255,255,0.6);
+  color: var(--text);
+  margin-bottom: 12px;
+}
+.profile-screen input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.profile-screen .existing-profiles {
+  margin-top: 20px;
+}
+.profile-screen .existing-profiles p {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.profile-screen .profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.profile-screen .profile-chip {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: all 0.15s;
+}
+.profile-screen .profile-chip:hover {
+  border-color: var(--accent);
+  background: var(--check-bg);
+}
+/* Settings extras */
+.settings-section {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.settings-section:last-child { border-bottom: none; }
+.settings-section label { display: block; font-size: 0.85rem; color: var(--text2); margin-bottom: 4px; }
+.settings-user {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.export-import-row {
+  display: flex;
+  gap: 8px;
+}
+.export-import-row .btn { flex: 1; font-size: 0.8rem; padding: 8px 10px; }
 </style>
 </head>
 <body>
@@ -587,9 +657,24 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
 <div class="modal-overlay" id="settingsModal">
   <div class="modal">
     <h2>Settings</h2>
-    <label for="startDateInput">Program Start Date</label>
-    <input type="date" id="startDateInput">
-    <div style="margin-bottom:16px">
+    <div class="settings-section">
+      <label>Profile</label>
+      <div class="settings-user" id="settingsUser"></div>
+      <button class="btn btn-secondary" onclick="switchUser()" style="font-size:0.8rem;padding:6px 12px">Switch Profile</button>
+    </div>
+    <div class="settings-section">
+      <label for="startDateInput">Program Start Date</label>
+      <input type="date" id="startDateInput">
+    </div>
+    <div class="settings-section">
+      <label>Data</label>
+      <div class="export-import-row">
+        <button class="btn btn-primary" onclick="exportData()">Export</button>
+        <button class="btn btn-secondary" onclick="document.getElementById('importFile').click()">Import</button>
+      </div>
+      <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+    </div>
+    <div class="settings-section">
       <button class="btn btn-danger" onclick="confirmClear()" style="font-size:0.8rem;padding:6px 12px">Clear All Data</button>
     </div>
     <div class="btn-row">
@@ -598,6 +683,9 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
     </div>
   </div>
 </div>
+
+<!-- Profile Picker (shown when no user selected) -->
+<div id="profileScreen" style="display:none"></div>
 
 <script>
 // ---- Data ----
@@ -701,24 +789,51 @@ function formatDate(d) {
   return `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
+// ---- User Profiles ----
+let currentUser = localStorage.getItem('health-current-user') || '';
+
+function userKey(key) {
+  return currentUser + ':' + key;
+}
+
+function getKnownUsers() {
+  try {
+    return JSON.parse(localStorage.getItem('health-users')) || [];
+  } catch { return []; }
+}
+
+function addKnownUser(name) {
+  const users = getKnownUsers();
+  if (!users.includes(name)) {
+    users.push(name);
+    localStorage.setItem('health-users', JSON.stringify(users));
+  }
+}
+
+function setCurrentUser(name) {
+  currentUser = name;
+  localStorage.setItem('health-current-user', name);
+  addKnownUser(name);
+}
+
 function getSettings() {
   try {
-    return JSON.parse(localStorage.getItem('health-settings')) || {};
+    return JSON.parse(localStorage.getItem(userKey('health-settings'))) || {};
   } catch { return {}; }
 }
 
 function saveSettingsData(s) {
-  localStorage.setItem('health-settings', JSON.stringify(s));
+  localStorage.setItem(userKey('health-settings'), JSON.stringify(s));
 }
 
 function getDayData(dateStr) {
   try {
-    return JSON.parse(localStorage.getItem('health-' + dateStr)) || {};
+    return JSON.parse(localStorage.getItem(userKey('health-' + dateStr))) || {};
   } catch { return {}; }
 }
 
 function saveDayData(dateStr, data) {
-  localStorage.setItem('health-' + dateStr, JSON.stringify(data));
+  localStorage.setItem(userKey('health-' + dateStr), JSON.stringify(data));
 }
 
 function getWeekNumber(startDate, targetDate) {
@@ -855,12 +970,12 @@ function toggleExpand(id) {
 // ---- CBT Data ----
 function getCbtEntries(dk, type) {
   try {
-    return JSON.parse(localStorage.getItem('cbt-' + type + '-' + dk)) || [];
+    return JSON.parse(localStorage.getItem(userKey('cbt-' + type + '-' + dk))) || [];
   } catch { return []; }
 }
 
 function saveCbtEntries(dk, type, entries) {
-  localStorage.setItem('cbt-' + type + '-' + dk, JSON.stringify(entries));
+  localStorage.setItem(userKey('cbt-' + type + '-' + dk), JSON.stringify(entries));
 }
 
 function renderCbtForm(type, dk) {
@@ -1191,6 +1306,7 @@ function goDate(y, m, d) {
 function openSettings() {
   const s = getSettings();
   document.getElementById('startDateInput').value = s.startDate || dateKey(today());
+  document.getElementById('settingsUser').textContent = currentUser;
   document.getElementById('settingsModal').classList.add('open');
 }
 
@@ -1207,11 +1323,12 @@ function saveSettings() {
 }
 
 function confirmClear() {
-  if (confirm('Clear ALL tracking data? This cannot be undone.')) {
+  if (confirm('Clear ALL tracking data for ' + currentUser + '? This cannot be undone.')) {
+    const prefix = currentUser + ':';
     const keys = [];
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
-      if (k.startsWith('health-')) keys.push(k);
+      if (k.startsWith(prefix)) keys.push(k);
     }
     keys.forEach(k => localStorage.removeItem(k));
     closeSettings();
@@ -1251,8 +1368,116 @@ function closeDoc() {
   document.getElementById('docOverlay').classList.remove('open');
 }
 
+// ---- Profile Picker ----
+function showProfilePicker() {
+  const screen = document.getElementById('profileScreen');
+  const mainHeader = document.querySelector('.header');
+  const app = document.getElementById('app');
+  mainHeader.style.display = 'none';
+  app.style.display = 'none';
+  screen.style.display = 'block';
+
+  const users = getKnownUsers();
+  let html = `
+    <div class="profile-screen">
+      <h2>Who's tracking?</h2>
+      <p>Enter your name to start or continue</p>
+      <input type="text" id="profileNameInput" placeholder="Your name" onkeydown="if(event.key==='Enter')loginProfile()">
+      <br>
+      <button class="btn btn-primary" onclick="loginProfile()">Go</button>`;
+
+  if (users.length > 0) {
+    html += `
+      <div class="existing-profiles">
+        <p>Or pick an existing profile:</p>
+        <div class="profile-list">
+          ${users.map(u => `<div class="profile-chip" onclick="pickProfile('${u.replace(/'/g, "\\'")}')">${u}</div>`).join('')}
+        </div>
+      </div>`;
+  }
+
+  html += '</div>';
+  screen.innerHTML = html;
+  setTimeout(() => document.getElementById('profileNameInput').focus(), 50);
+}
+
+function loginProfile() {
+  const name = document.getElementById('profileNameInput').value.trim();
+  if (!name) return;
+  setCurrentUser(name);
+  hideProfilePicker();
+}
+
+function pickProfile(name) {
+  setCurrentUser(name);
+  hideProfilePicker();
+}
+
+function hideProfilePicker() {
+  document.getElementById('profileScreen').style.display = 'none';
+  document.querySelector('.header').style.display = 'flex';
+  document.getElementById('app').style.display = 'block';
+  render();
+}
+
+function switchUser() {
+  closeSettings();
+  showProfilePicker();
+}
+
+// ---- Export / Import ----
+function exportData() {
+  const prefix = currentUser + ':';
+  const data = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k.startsWith(prefix)) {
+      data[k.slice(prefix.length)] = localStorage.getItem(k);
+    }
+  }
+  const blob = new Blob([JSON.stringify({ user: currentUser, data }, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'health-tracker-' + currentUser.toLowerCase().replace(/\s+/g, '-') + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importData(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const json = JSON.parse(e.target.result);
+      if (!json.data || !json.user) {
+        alert('Invalid file format.');
+        return;
+      }
+      if (confirm('Import data for "' + json.user + '"? This will merge with any existing data.')) {
+        setCurrentUser(json.user);
+        const prefix = json.user + ':';
+        for (const [key, value] of Object.entries(json.data)) {
+          localStorage.setItem(prefix + key, value);
+        }
+        closeSettings();
+        render();
+      }
+    } catch {
+      alert('Could not read file.');
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = '';
+}
+
 // ---- Init ----
-render();
+if (!currentUser) {
+  showProfilePicker();
+} else {
+  render();
+}
 </script>
 </body>
 </html>
