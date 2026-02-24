@@ -1234,8 +1234,11 @@ function openDoc(title, file) {
   document.getElementById('docTitle').textContent = title;
   document.getElementById('docContent').textContent = 'Loading...';
   document.getElementById('docOverlay').classList.add('open');
-  fetch(file)
-    .then(r => r.ok ? r.text() : 'Could not load file.')
+  fetch('personal/' + file)
+    .then(r => {
+      if (r.ok) return r.text();
+      return fetch(file).then(r2 => r2.ok ? r2.text() : 'Could not load file.');
+    })
     .then(text => {
       document.getElementById('docContent').textContent = text;
     })

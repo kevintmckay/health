@@ -1,96 +1,25 @@
-EINKORN SOURDOUGH BREAD — WHY IT FITS THE PLAN
-=================================================
+EINKORN GUIDE TEMPLATE
+========================
 
-Fresh-ground einkorn sourdough is probably the single healthiest bread
-a person can eat. It fits well as your starch portion at meals.
+Customize this file with your own notes.
+Place your personal version in the personal/ folder.
 
+WHAT IS EINKORN?
+------------------
+- Ancient wheat variety, never hybridized
+- Different gluten structure than modern wheat
+- Some people with wheat sensitivity tolerate it better
+- Higher protein and mineral content than modern wheat
 
-WHAT IS EINKORN
-=================
-Einkorn (Triticum monococcum) is one of the earliest cultivated wheat
-varieties. It has never been hybridized like modern wheat. Its nutritional
-profile and gluten structure are significantly different from what you
-find in store-bought bread.
+COOKING WITH EINKORN
+----------------------
+- Absorbs less water than modern flour
+- Reduce liquid by 15-20% in recipes
+- Mix less — the gluten is more delicate
+- Works well for pasta, flatbreads, pancakes, and cookies
 
-
-EINKORN VS MODERN WHEAT
-=========================
-
-Higher protein:
-  - Einkorn: 18-20% protein vs modern wheat: 10-14%
-  - Aligns with the high-protein diet approach
-
-More nutrients:
-  - Higher in carotenoids (especially lutein)
-  - Higher in B vitamins, zinc, and iron
-  - Higher antioxidant content (relevant for anti-inflammatory goals)
-
-Lower glycemic response:
-  - Studies show einkorn raises blood sugar less sharply than modern wheat
-  - Less spike-crash-hunger cycle
-
-Different gluten:
-  - Einkorn gluten is weaker and more fragile than modern wheat gluten
-  - Easier to digest for many people
-  - NOT safe for celiacs — still contains gluten
-
-
-FRESHLY GRINDING THE BERRIES
-==============================
-Grinding your own einkorn berries right before baking preserves the germ
-and bran oils that oxidize and go rancid in pre-ground flour. Store-bought
-whole wheat flour has been sitting around losing nutrients. Fresh-ground
-retains the full nutritional profile.
-
-
-WHY SOURDOUGH MAKES IT BETTER
-================================
-
-Sourdough fermentation meaningfully improves einkorn bread in ways
-directly relevant to this health plan:
-
-Lowers glycemic index further:
-  - Organic acids produced during fermentation slow starch digestion
-  - Less blood sugar spike means less crash, less hunger, less afternoon
-    snacking urge
-
-Breaks down phytic acid:
-  - Phytic acid in grains blocks absorption of minerals (iron, zinc,
-    magnesium, calcium)
-  - Long sourdough fermentation reduces phytic acid by 50-70%
-  - You absorb significantly more of the nutrients already higher in einkorn
-
-Pre-digests the gluten:
-  - Lactobacilli in sourdough culture partially break down gluten proteins
-  - Combined with einkorn's already weaker gluten, this makes it
-    substantially easier on the gut
-
-Produces beneficial organic acids:
-  - Lactic and acetic acid feed healthy gut bacteria
-  - Better gut health is linked to lower systemic inflammation
-  - Relevant for sciatica and hip pain
-
-Longer satiety:
-  - The combination of lower glycemic response and acid/fiber matrix
-    keeps you full longer per calorie than regular bread
-
-
-PRACTICAL NOTES
-=================
-- Longer fermentation = more benefits. A 12-24 hour bulk ferment gets
-  the most phytic acid reduction and gluten breakdown.
-- Einkorn is stickier and weaker than modern wheat dough. It will not
-  rise as high. That is normal. Do not add modern wheat to compensate.
-- It keeps well and actually improves in digestibility a day after baking.
-- Store in a bread box or paper bag, not plastic (keeps the crust intact).
-
-
-HOW IT FITS THE DIET PLAN
-============================
-- It still counts as your fist-sized starch portion at meals
-- Healthier bread is still bread — calorie-dense (~80-100 cal/slice)
-  and easy to overeat, especially fresh out of the oven
-- Keep it to 1-2 slices per meal
-- Best used at breakfast (eggs + einkorn toast) or lunch
-- The nutritional advantage over store-bought bread is real but the
-  portion rule still applies
+WHERE TO FIND IT
+------------------
+- Health food stores and specialty grocers
+- Online retailers
+- Look for "einkorn" specifically (not spelt or emmer)

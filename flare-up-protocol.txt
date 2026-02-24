@@ -1,160 +1,35 @@
-SCIATICA FLARE-UP PROTOCOL
+FLARE-UP PROTOCOL TEMPLATE
 ============================
 
-Flares happen. They do not mean you failed or that the plan is broken.
-They mean your nerve is irritated and you need to temporarily shift gears.
-The goal during a flare is to maintain as much of the routine as possible
-without making the flare worse.
+Customize this file with your own protocol.
+Place your personal version in the personal/ folder.
 
+MILD FLARE-UP
+---------------
+- Reduce walk by 5-10 minutes
+- Add standing back extensions 3-4x per day
+- Continue core exercises at reduced intensity
+- Ice or heat for 15 minutes as needed
 
-SEVERITY LEVELS
-=================
+MODERATE FLARE-UP
+-------------------
+- Shorten walk to 5-10 minutes only
+- Pause resistance exercises
+- Continue gentle core work if tolerable
+- Ice/heat 15 min, alternate as needed
+- Change positions every 20 minutes
 
-MILD: Increased back tightness or dull ache. No radiating leg pain.
-  You can still function but you feel it.
+SEVERE FLARE-UP
+-----------------
+- Pause walking and exercises
+- Use 90-90 position for relief (legs on chair)
+- Change positions every 20 minutes
+- Focus on breathing and gentle movement
+- Contact your healthcare provider if needed
 
-MODERATE: Radiating pain into the glute or down the leg. Walking is
-  uncomfortable. Sitting for long periods makes it worse.
-
-SEVERE: Sharp, constant radiating pain. Difficulty walking or standing.
-  Numbness or tingling in the foot. Significant activity limitation.
-
-
-WHAT TO DO BY SEVERITY
-========================
-
-MILD FLARE:
-  Keep doing:
-    - Walking (reduce duration by 5-10 min, stay on flat ground)
-    - McGill Big 3 (check form — are you doing them correctly?)
-    - Hip stretches (piriformis stretch may directly help)
-    - Resistance exercises (skip chair squats if they aggravate)
-    - Meditation, diet, sleep, CBT logging — all continue normally
-
-  Add:
-    - Standing back extensions: hands on hips, gently lean back,
-      hold 5 seconds, repeat 5x. Do these 3-4 times per day.
-    - Ice on the affected area for 15 min after activity
-    - Extra piriformis and hip flexor stretching (2-3x per day)
-
-  Duration: Usually resolves in 2-5 days if managed.
-
-
-MODERATE FLARE:
-  Keep doing:
-    - Walking (shorten to 5-10 min only, or switch to gentle movement
-      around the house if outdoor walking hurts)
-    - McGill Big 3 (only if they don't increase radiating pain —
-      skip any exercise that makes the leg symptoms worse)
-    - Piriformis stretch and hip flexor stretch (gently)
-    - Glute bridges (often still tolerable and helpful)
-    - Meditation (especially important — pain increases anxiety
-      which increases pain perception)
-    - Diet, sleep, CBT logging — all continue normally
-
-  Pause:
-    - Resistance exercises (wall push-ups, chair squats, band rows)
-    - Pool exercise (getting in/out may aggravate)
-    - Any exercise that increases the radiating pain
-
-  Add:
-    - Standing back extensions: 5 reps, 5-6 times per day
-    - Alternate ice (15 min) and heat (15 min) on lower back
-    - Change positions frequently — do not sit for more than 20-30 min
-    - Walk gently for 2-3 min every 30 minutes of sitting
-    - OTC anti-inflammatory (ibuprofen) per label directions if tolerated
-
-  Duration: Usually 1-2 weeks. If not improving after 1 week, see your doctor.
-
-
-SEVERE FLARE:
-  Keep doing:
-    - Meditation (this is when you need it most)
-    - Diet (do not let pain become an excuse for emotional eating —
-      use the CBT tools)
-    - Sleep schedule (pain disrupts sleep; good sleep hygiene matters
-      even more now)
-    - CBT logging (especially: "pain is a trigger for eating" —
-      notice and log it)
-    - Hydration
-
-  Pause:
-    - Walking beyond basic daily movement
-    - All exercises except gentle piriformis stretch if tolerated
-    - Pool exercise
-
-  Add:
-    - Standing back extensions if tolerated (try cautiously)
-    - Lying on your back with calves on a chair seat (90-90 position)
-      for 10-15 min several times a day — this unloads the spine
-    - Position changes every 20 minutes
-    - OTC anti-inflammatory per label directions
-
-  See your doctor if:
-    - Pain is not improving after 2 weeks
-    - You have numbness or weakness in your foot or lower leg
-    - You have difficulty controlling your bladder or bowels (this is
-      an EMERGENCY — go to the ER immediately, this is cauda equina
-      syndrome)
-    - Pain is so severe you cannot sleep at all despite medication
-
-  Duration: Can take 2-4 weeks. Medical guidance recommended.
-
-
-RESUMING THE PLAN AFTER A FLARE
-=================================
-
-Do NOT restart from week 1. Drop back in your progression and rebuild.
-
-  If the flare lasted less than 1 week:
-    - Resume where you left off but at the previous week's intensity
-    - Example: you were on week 6 walking plan -> resume at week 5 levels
-    - Return to your current week within 3-5 days if feeling good
-
-  If the flare lasted 1-2 weeks:
-    - Drop back 2 weeks in all progressions
-    - Rebuild over 1-2 weeks back to where you were
-
-  If the flare lasted more than 2 weeks:
-    - Drop back 3-4 weeks in all progressions
-    - Rebuild gradually — do not rush
-    - Consider seeing a physical therapist before resuming
-
-  General rules for resuming:
-    - Start with walking before adding exercises back
-    - Add McGill Big 3 and hip stretches next
-    - Add resistance exercises last
-    - If any exercise brings back radiating symptoms, stop it and wait
-      another few days before trying again
-    - Progress should feel easy at first — that is intentional
-
-
-PREVENTING FUTURE FLARES
-==========================
-As you get stronger and lighter, flares should become less frequent and
-less severe. The things that reduce flare risk long-term:
-
-  - Consistent McGill Big 3 (core endurance protects the spine)
-  - Strong glutes (glute bridges and clamshells take load off the spine)
-  - Flexible hip flexors and piriformis (reduces nerve compression)
-  - Lower body weight (less spinal compression)
-  - Good sleep (reduces pain sensitivity)
-  - Movement throughout the day (do not sit for hours without moving)
-  - Managing stress and anxiety (tension increases muscle guarding
-    around the spine, which can compress nerves)
-
-These are all things you are already working on. Every week of consistency
-reduces your flare risk.
-
-
-WHAT NOT TO DO DURING A FLARE
-================================
-- Do NOT stop everything and lie in bed for days (prolonged rest makes
-  sciatica worse after the first 24-48 hours)
-- Do NOT push through sharp radiating pain hoping it will loosen up
-- Do NOT abandon your diet because "nothing matters anyway" — this is
-  the all-or-nothing thinking trap from the CBT guide
-- Do NOT restart the entire plan from scratch — you haven't lost your
-  progress, you just need to rebuild briefly
-- Do NOT try to stretch or massage the pain away aggressively
-- Do NOT ignore severe symptoms (numbness, weakness, bladder issues)
+RETURNING TO ACTIVITY
+-----------------------
+- Resume at previous week's intensity (not from scratch)
+- Rebuild over 3-5 days
+- Do not jump back to where you were before the flare
+- Listen to your body — mild discomfort OK, sharp pain is not
