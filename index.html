@@ -608,6 +608,14 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
   color: var(--text);
   margin-bottom: 8px;
 }
+.header-user {
+  font-size: 0.75rem;
+  color: var(--text2);
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.header-user:hover { background: var(--border); }
 .export-import-row {
   display: flex;
   gap: 8px;
@@ -636,7 +644,8 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
       </div>
     </div>
   </div>
-  <div>
+  <div style="display:flex;align-items:center;gap:4px">
+    <span class="header-user" id="headerUser" onclick="openSettings()" title="Switch profile"></span>
     <button class="cal-btn" onclick="toggleHistory()" title="History">&#x1f4c5;</button>
     <button class="gear-btn" onclick="openSettings()" title="Settings">&#x2699;</button>
   </div>
@@ -856,6 +865,7 @@ let expandedItems = new Set();
 function render() {
   const app = document.getElementById('app');
   const settings = getSettings();
+  document.getElementById('headerUser').textContent = currentUser;
 
   if (!settings.startDate) {
     app.innerHTML = `
