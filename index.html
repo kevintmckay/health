@@ -778,6 +778,10 @@ const ITEMS = [
   ]},
 ];
 
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
 function dateKey(d) {
   return d.toISOString().slice(0, 10);
 }
@@ -1087,16 +1091,16 @@ function renderCbtForm(type, dk) {
 
 function formatCbtEntry(type, e) {
   if (type === 'log') {
-    return `<strong>${e.what || '?'}</strong> — ${e.hunger || '?'} hunger, feeling ${e.feeling || '?'}${e.trigger ? ', trigger: ' + e.trigger : ''}`;
+    return `<strong>${esc(e.what || '?')}</strong> — ${esc(e.hunger || '?')} hunger, feeling ${esc(e.feeling || '?')}${e.trigger ? ', trigger: ' + esc(e.trigger) : ''}`;
   }
   if (type === 'thought') {
-    return `"<strong>${e.thought || '?'}</strong>" — feeling ${e.feeling || '?'}`;
+    return `"<strong>${esc(e.thought || '?')}</strong>" — feeling ${esc(e.feeling || '?')}`;
   }
   if (type === 'challenge') {
-    return `"<strong>${e.thought || '?'}</strong>" &rarr; "${e.reframe || '?'}"`;
+    return `"<strong>${esc(e.thought || '?')}</strong>" &rarr; "${esc(e.reframe || '?')}"`;
   }
   if (type === 'urgesurf') {
-    return `Urge: <strong>${e.before || '?'}</strong> &rarr; <strong>${e.after || '?'}</strong> — ${e.activity || '?'}`;
+    return `Urge: <strong>${esc(e.before || '?')}</strong> &rarr; <strong>${esc(e.after || '?')}</strong> — ${esc(e.activity || '?')}`;
   }
   return '';
 }
@@ -1401,7 +1405,7 @@ function showProfilePicker() {
       <div class="existing-profiles">
         <p>Or pick an existing profile:</p>
         <div class="profile-list">
-          ${users.map(u => `<div class="profile-chip" onclick="pickProfile('${u.replace(/'/g, "\\'")}')">${u}</div>`).join('')}
+          ${users.map(u => `<div class="profile-chip" onclick="pickProfile('${esc(u)}')">${esc(u)}</div>`).join('')}
         </div>
       </div>`;
   }
