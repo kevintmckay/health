@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Health Tracker</title>
+<style>
+:root {
+  --bg: linear-gradient(135deg, #b2e8dc 0%, #8dd8c8 50%, #a0e0d0 100%);
+  --bg-solid: #a0e0d0;
+  --card: rgba(255,255,255,0.9);
+  --text: #1a2e2a;
+  --text2: #4a6e62;
+  --border: #90ccbb;
+  --accent: #e87a20;
+  --accent2: #d06a10;
+  --green: #2abb6a;
+  --yellow: #e8a820;
+  --red: #d94040;
+  --coral: #e87a20;
+  --coral2: #d06a10;
+  --check-bg: rgba(232,122,32,0.06);
+  --progress-bg: #a8d4c6;
+  --shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  background-attachment: fixed;
+  color: var(--text);
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+  min-height: 100vh;
+}
+h1 { font-size: 1.4rem; font-weight: 700; background: linear-gradient(135deg, #e87a20, #c45e10); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.header-left { display: flex; align-items: center; gap: 8px; }
+.gear-btn, .cal-btn {
+  background: none;
+  border: none;
+  color: var(--text2);
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.gear-btn:hover, .cal-btn:hover { background: var(--border); }
+.details-wrap { position: relative; }
+.details-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.details-btn:hover { background: var(--check-bg); }
+.details-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+  background: var(--card);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  min-width: 220px;
+  z-index: 50;
+  overflow: hidden;
+}
+.details-dropdown.open { display: block; }
+.details-dropdown a {
+  display: block;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+}
+.details-dropdown a:last-child { border-bottom: none; }
+.details-dropdown a:hover { background: var(--check-bg); }
+.doc-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 100;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  overflow-y: auto;
+}
+.doc-overlay.open { display: flex; }
+.doc-viewer {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  margin-top: 20px;
+}
+.doc-viewer h2 { margin-bottom: 12px; }
+.doc-viewer pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text);
+  font-family: inherit;
+}
+.doc-viewer .doc-close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--text2);
+  padding: 0 4px;
+  line-height: 1;
+}
+.doc-viewer .doc-close:hover { color: var(--text); }
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  background: var(--card);
+  backdrop-filter: blur(10px);
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.nav button {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.nav button:hover { background: var(--check-bg); }
+.nav .date-display {
+  font-size: 1rem;
+  font-weight: 600;
+  min-width: 160px;
+  text-align: center;
+}
+.nav .today-btn {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  background: linear-gradient(135deg, #e87a20, #c45e10);
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.nav .today-btn:hover { opacity: 0.85; }
+.week-badge {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text2);
+  margin-bottom: 12px;
+}
+.week-badge strong { color: var(--accent); }
+.progress-section {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.progress-count { font-weight: 700; font-size: 1rem; }
+.progress-pct { font-size: 0.85rem; color: var(--text2); }
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--progress-bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s, background 0.3s;
+}
+.streak {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text2);
+  margin-bottom: 16px;
+}
+.streak strong { color: var(--accent); }
+.checklist {
+  background: var(--card);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.check-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 14px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.check-item:last-child { border-bottom: none; }
+.check-item:hover { background: var(--check-bg); }
+.check-item.checked { opacity: 0.6; }
+.check-box {
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  font-size: 0.9rem;
+}
+.check-item.checked .check-box {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.check-label { font-size: 0.95rem; }
+.check-details {
+  display: none;
+  padding: 0 16px 12px 56px;
+  border-bottom: 1px solid var(--border);
+}
+.check-details.open { display: block; }
+.check-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.check-details li {
+  font-size: 0.82rem;
+  color: var(--text2);
+  padding: 3px 0;
+  line-height: 1.4;
+}
+.check-details li::before {
+  content: '>';
+  color: var(--accent);
+  font-weight: 700;
+  margin-right: 6px;
+}
+/* CBT forms */
+.cbt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cbt-form label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.cbt-form textarea, .cbt-form select, .cbt-form input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  background: rgba(255,255,255,0.6);
+  color: var(--text);
+  resize: vertical;
+}
+.cbt-form textarea { min-height: 50px; }
+.cbt-form textarea:focus, .cbt-form select:focus, .cbt-form input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+.cbt-form .field-row {
+  display: flex;
+  gap: 8px;
+}
+.cbt-form .field-row > div { flex: 1; }
+.cbt-form .pill-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.cbt-form .pill {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  color: var(--text2);
+  transition: all 0.15s;
+}
+.cbt-form .pill.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.cbt-form .urge-scale {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.cbt-form .urge-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.cbt-form .urge-num.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.cbt-form .cbt-saved {
+  font-size: 0.75rem;
+  color: var(--green);
+  font-weight: 600;
+}
+.cbt-form .cbt-entries {
+  margin-top: 6px;
+  border-top: 1px solid var(--border);
+  padding-top: 6px;
+}
+.cbt-form .cbt-entry {
+  font-size: 0.78rem;
+  color: var(--text2);
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--border);
+  line-height: 1.4;
+}
+.cbt-form .cbt-entry:last-child { border-bottom: none; }
+.cbt-form .cbt-entry strong { color: var(--text); }
+.cbt-form .add-entry-btn {
+  padding: 6px 14px;
+  border: 1px dashed var(--accent);
+  border-radius: 6px;
+  background: none;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+.cbt-form .add-entry-btn:hover { background: var(--check-bg); }
+
+.check-expand {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--text2);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.check-expand.open { transform: rotate(90deg); }
+.check-week {
+  font-size: 0.7rem;
+  color: var(--text2);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Settings modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 24px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+.modal h2 { margin-bottom: 16px; }
+.modal label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text2);
+  margin-bottom: 4px;
+}
+.modal input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--bg);
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.modal .btn-row {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent2); }
+.btn-secondary { background: var(--progress-bg); color: var(--text); }
+.btn-secondary:hover { background: var(--border); }
+.btn-danger { background: var(--red); color: #fff; }
+.btn-danger:hover { opacity: 0.85; }
+
+/* History calendar */
+.history-section {
+  display: none;
+  margin-bottom: 16px;
+}
+.history-section.open { display: block; }
+.history-card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+.history-month-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.history-month-nav button {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+.history-month-nav button:hover { background: var(--check-bg); }
+.history-month-nav span { font-weight: 600; font-size: 0.95rem; }
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+.cal-header {
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--text2);
+  font-weight: 600;
+  padding: 4px 0;
+}
+.cal-day {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text);
+}
+.cal-day.empty { background: transparent; }
+.cal-day.no-data { background: var(--progress-bg); opacity: 0.4; }
+.cal-day.red { background: #fecaca; color: #991b1b; }
+.cal-day.yellow { background: #fef3c7; color: #854d0e; }
+.cal-day.green { background: #fed7aa; color: #9a3412; }
+@media (prefers-color-scheme: dark) {
+  .cal-day.red { background: #5a1a1a; color: #fca5a5; }
+  .cal-day.yellow { background: #5a4a0a; color: #fde047; }
+  .cal-day.green { background: #4a2510; color: #fdba74; }
+}
+.cal-day.today { outline: 2px solid var(--accent); outline-offset: -1px; }
+.cal-legend {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  color: var(--text2);
+}
+.cal-legend span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.cal-legend .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+.no-start {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text2);
+}
+.no-start button {
+  margin-top: 12px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Health Tracker</h1>
+    <div class="details-wrap">
+      <button class="details-btn" onclick="toggleDetails(event)">Details</button>
+      <div class="details-dropdown" id="detailsDropdown">
+        <a onclick="openDoc('Daily Schedule','daily-schedule.txt')">Daily Schedule</a>
+        <a onclick="openDoc('Diet Plan','diet-plan.txt')">Diet Plan</a>
+        <a onclick="openDoc('Fitness Plan','fitness-plan.txt')">Fitness Plan</a>
+        <a onclick="openDoc('Walking Plan','walking-plan.txt')">Walking Plan</a>
+        <a onclick="openDoc('Core Exercises','core-exercises.txt')">Core Exercises</a>
+        <a onclick="openDoc('Meditation Plan','meditation-plan.txt')">Meditation Plan</a>
+        <a onclick="openDoc('Sleep Plan','sleep-plan.txt')">Sleep Plan</a>
+        <a onclick="openDoc('CBT Eating Guide','cbt-eating-guide.txt')">CBT Eating Guide</a>
+        <a onclick="openDoc('Flare-Up Protocol','flare-up-protocol.txt')">Flare-Up Protocol</a>
+        <a onclick="openDoc('Einkorn Guide','einkorn.txt')">Einkorn Guide</a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button class="cal-btn" onclick="toggleHistory()" title="History">&#x1f4c5;</button>
+    <button class="gear-btn" onclick="openSettings()" title="Settings">&#x2699;</button>
+  </div>
+</div>
+
+<!-- Doc Viewer -->
+<div class="doc-overlay" id="docOverlay" onclick="if(event.target===this)closeDoc()">
+  <div class="doc-viewer">
+    <button class="doc-close" onclick="closeDoc()">&times;</button>
+    <h2 id="docTitle"></h2>
+    <pre id="docContent">Loading...</pre>
+  </div>
+</div>
+
+<div id="app"></div>
+
+<!-- Settings Modal -->
+<div class="modal-overlay" id="settingsModal">
+  <div class="modal">
+    <h2>Settings</h2>
+    <label for="startDateInput">Program Start Date</label>
+    <input type="date" id="startDateInput">
+    <div style="margin-bottom:16px">
+      <button class="btn btn-danger" onclick="confirmClear()" style="font-size:0.8rem;padding:6px 12px">Clear All Data</button>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="closeSettings()">Cancel</button>
+      <button class="btn btn-primary" onclick="saveSettings()">Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ---- Data ----
+const ITEMS = [
+  { id: 'daylight',    label: 'Morning daylight (10 min)', week: 1, details: [
+    'Within 30 min of waking, go outside',
+    'Resets circadian rhythm for better sleep',
+    'Overcast days still count — no sunglasses',
+  ]},
+  { id: 'meditation',  label: 'Meditation',                week: 1, details: [
+    'Start at 3 min, add 1 min/week to reach 10-15 min',
+    'Before phone/email — just breathe and notice',
+    '4-7-8 breathing for anxiety spikes',
+  ]},
+  { id: 'walk',        label: 'Walk',                      week: 1, details: [
+    'Wk 1: 4x10 min on flat ground',
+    'Add 2-5 min/week, target 30-45 min by wk 8',
+    'Stop if sharp or radiating leg pain',
+    'Same time daily builds habit fastest',
+  ]},
+  { id: 'diet',        label: 'Diet followed',             week: 1, details: [
+    'Palm protein + half-plate veg + fist starch',
+    'Fatty fish 2-3x/week',
+    'Cut liquid calories (soda, juice, alcohol)',
+    'Ramp protein gradually to ~160g/day',
+  ]},
+  { id: 'water',       label: 'Water intake (3-4 bottles)', week: 1, details: [
+    'Spread evenly throughout the day',
+    'One bottle first thing in the morning',
+    'Helps appetite regulation and energy',
+  ]},
+  { id: 'sleep',       label: 'Sleep schedule followed',   week: 1, details: [
+    'Pick wake time, work backward 8 hours',
+    'Same time 7 days/week — even weekends',
+    'Wind-down 30-60 min: dim lights, screens off',
+    'Bedroom: 65-68\u00b0F, blackout dark',
+  ]},
+  { id: 'foodmood',    label: 'Food/mood log entry',       week: 1, details: [
+    'Wk 1-2: Observe triggers, feelings, thoughts',
+    'Wk 3-4: Catch automatic thoughts ("deserve this")',
+    'Wk 5-6: Challenge — "true or just feels true?"',
+    'Wk 7-8: Urge surf — 15 min timer, walk or water',
+  ]},
+  { id: 'kitchen',     label: 'Kitchen closes rule',       week: 2, details: [
+    'Set a firm cutoff time each night',
+    'Brush teeth afterward to signal "done"',
+    'RAIN technique for late-night urges',
+  ]},
+  { id: 'routineA',    label: 'Routine A (core + hips)',   week: 3, details: [
+    'McGill Big 3: curl-up, side plank, bird-dog',
+    'Plus hip flexor + piriformis stretches',
+    'Descending pyramid: 6 reps > 4 > 2, 6-8s holds',
+    'M/W/F schedule',
+  ]},
+  { id: 'routineB',    label: 'Routine B (resistance)',    week: 4, details: [
+    'Wall push-ups, chair squats, band rows',
+    'Tu/Th schedule',
+    'Preserves muscle during caloric deficit',
+    'High protein + resistance = best results',
+  ]},
+  { id: 'pool',        label: 'Pool / aquatic exercise',   week: 5, details: [
+    'Removes 90% of spinal load',
+    '2x/week — best modality for back pain',
+    'Walk laps, gentle movements, water resistance',
+  ]},
+  { id: 'cbt_log',     label: 'CBT: Food/mood log',        week: 1, cbt: 'log', details: [
+    'Log any eating outside planned meals',
+    'No judgment — you are collecting data',
+  ]},
+  { id: 'cbt_thought', label: 'CBT: Catch a thought',      week: 3, cbt: 'thought', details: [
+    'When urge hits, pause: "What thought just happened?"',
+    'Feelings are not facts',
+  ]},
+  { id: 'cbt_challenge', label: 'CBT: Challenge & reframe', week: 5, cbt: 'challenge', details: [
+    'Run the thought through the questions below',
+    '"I deserve to feel good tomorrow morning"',
+  ]},
+  { id: 'cbt_urgesurf', label: 'CBT: Urge surfing',        week: 7, cbt: 'urgesurf', details: [
+    'Urges peak and pass in 10-20 min',
+    'Every urge you ride out weakens the habit loop',
+  ]},
+];
+
+function dateKey(d) {
+  return d.toISOString().slice(0, 10);
+}
+
+function today() {
+  const d = new Date();
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+}
+
+function parseDate(s) {
+  const [y, m, d] = s.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
+function formatDate(d) {
+  const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+}
+
+function getSettings() {
+  try {
+    return JSON.parse(localStorage.getItem('health-settings')) || {};
+  } catch { return {}; }
+}
+
+function saveSettingsData(s) {
+  localStorage.setItem('health-settings', JSON.stringify(s));
+}
+
+function getDayData(dateStr) {
+  try {
+    return JSON.parse(localStorage.getItem('health-' + dateStr)) || {};
+  } catch { return {}; }
+}
+
+function saveDayData(dateStr, data) {
+  localStorage.setItem('health-' + dateStr, JSON.stringify(data));
+}
+
+function getWeekNumber(startDate, targetDate) {
+  const diffMs = targetDate - startDate;
+  if (diffMs < 0) return 0;
+  return Math.floor(diffMs / (7 * 24 * 60 * 60 * 1000)) + 1;
+}
+
+function getActiveItems(weekNum) {
+  return ITEMS.filter(item => weekNum >= item.week);
+}
+
+// ---- State ----
+let currentDate = today();
+let historyOpen = false;
+let historyMonth = new Date(today().getFullYear(), today().getMonth(), 1);
+let expandedItems = new Set();
+
+// ---- Render ----
+function render() {
+  const app = document.getElementById('app');
+  const settings = getSettings();
+
+  if (!settings.startDate) {
+    app.innerHTML = `
+      <div class="no-start">
+        <h2>Welcome</h2>
+        <p>Set your program start date to begin tracking.</p>
+        <button class="btn btn-primary" onclick="openSettings()">Set Start Date</button>
+      </div>`;
+    return;
+  }
+
+  const startDate = parseDate(settings.startDate);
+  const dk = dateKey(currentDate);
+  const weekNum = getWeekNumber(startDate, currentDate);
+  const activeItems = getActiveItems(weekNum);
+  const dayData = getDayData(dk);
+  const isToday = dateKey(currentDate) === dateKey(today());
+  const isFuture = currentDate > today();
+
+  const checked = activeItems.filter(i => dayData[i.id]).length;
+  const total = activeItems.length;
+  const pct = total > 0 ? Math.round((checked / total) * 100) : 0;
+
+  let fillColor = 'var(--red)';
+  if (pct >= 75) fillColor = 'var(--green)';
+  else if (pct >= 40) fillColor = 'var(--yellow)';
+
+  // Streak calculation
+  const streak = calcStreak(settings.startDate);
+
+  let html = '';
+
+  // Date nav
+  html += `
+    <div class="nav">
+      <button onclick="prevDay()">&larr;</button>
+      <div>
+        <div class="date-display">${formatDate(currentDate)}</div>
+      </div>
+      <button onclick="nextDay()">&rarr;</button>
+      ${!isToday ? '<button class="today-btn" onclick="goToday()">Today</button>' : ''}
+    </div>`;
+
+  // Week badge
+  if (weekNum > 0) {
+    html += `<div class="week-badge">Week <strong>${weekNum}</strong> of your program</div>`;
+  } else {
+    html += `<div class="week-badge" style="color:var(--red)">Before program start</div>`;
+  }
+
+  // Progress
+  if (weekNum > 0 && !isFuture) {
+    html += `
+      <div class="progress-section">
+        <div class="progress-header">
+          <span class="progress-count">${checked} / ${total} completed</span>
+          <span class="progress-pct">${pct}%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:${pct}%;background:${fillColor}"></div>
+        </div>
+      </div>`;
+
+    // Streak
+    if (streak > 0) {
+      html += `<div class="streak">${streak} day${streak > 1 ? 's' : ''} streak of 100% completion</div>`;
+    }
+  }
+
+  // History
+  html += `<div class="history-section${historyOpen ? ' open' : ''}" id="historySection">${renderHistory(settings.startDate)}</div>`;
+
+  // Checklist
+  if (weekNum > 0 && !isFuture) {
+    html += '<div class="checklist">';
+    for (const item of activeItems) {
+      const isChecked = !!dayData[item.id];
+      const isExpanded = expandedItems.has(item.id);
+      html += `
+        <div class="check-item${isChecked ? ' checked' : ''}" onclick="toggle('${dk}','${item.id}')">
+          <div class="check-box">${isChecked ? '&#10003;' : ''}</div>
+          <div class="check-label">${item.label}</div>
+          ${weekNum <= item.week + 1 ? `<div class="check-week">Wk ${item.week}+</div>` : ''}
+          <div class="check-expand${isExpanded ? ' open' : ''}" onclick="event.stopPropagation();toggleExpand('${item.id}')">&#9654;</div>
+        </div>
+        <div class="check-details${isExpanded ? ' open' : ''}">
+          <ul>${item.details.map(d => '<li>' + d + '</li>').join('')}</ul>
+          ${item.cbt && isExpanded ? renderCbtForm(item.cbt, dk) : ''}
+        </div>`;
+    }
+    html += '</div>';
+  } else if (isFuture) {
+    html += '<div class="no-start"><p>Future date — check back then!</p></div>';
+  }
+
+  app.innerHTML = html;
+}
+
+function toggle(dk, id) {
+  const data = getDayData(dk);
+  data[id] = !data[id];
+  saveDayData(dk, data);
+  render();
+}
+
+function toggleExpand(id) {
+  if (expandedItems.has(id)) expandedItems.delete(id);
+  else expandedItems.add(id);
+  render();
+}
+
+// ---- CBT Data ----
+function getCbtEntries(dk, type) {
+  try {
+    return JSON.parse(localStorage.getItem('cbt-' + type + '-' + dk)) || [];
+  } catch { return []; }
+}
+
+function saveCbtEntries(dk, type, entries) {
+  localStorage.setItem('cbt-' + type + '-' + dk, JSON.stringify(entries));
+}
+
+function renderCbtForm(type, dk) {
+  const entries = getCbtEntries(dk, type);
+  let html = '<div class="cbt-form" onclick="event.stopPropagation()">';
+
+  if (type === 'log') {
+    html += `
+      <label>What did you eat?</label>
+      <input type="text" id="cbt-log-what" placeholder="e.g. chips, cookies...">
+      <div class="field-row">
+        <div>
+          <label>Hunger type</label>
+          <div class="pill-group" id="cbt-log-hunger">
+            <div class="pill" onclick="pillSelect('cbt-log-hunger',this)">Physical</div>
+            <div class="pill" onclick="pillSelect('cbt-log-hunger',this)">Emotional</div>
+            <div class="pill" onclick="pillSelect('cbt-log-hunger',this)">Unsure</div>
+          </div>
+        </div>
+      </div>
+      <label>Feeling before</label>
+      <div class="pill-group" id="cbt-log-feeling">
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Anxious</div>
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Bored</div>
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Stressed</div>
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Tired</div>
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Lonely</div>
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">In pain</div>
+        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Frustrated</div>
+      </div>
+      <label>Trigger (what happened in last 30 min?)</label>
+      <input type="text" id="cbt-log-trigger" placeholder="e.g. work stress, argument, nothing specific...">
+      <button class="add-entry-btn" onclick="saveCbtLog('${dk}')">+ Save entry</button>`;
+  }
+
+  if (type === 'thought') {
+    html += `
+      <label>The automatic thought</label>
+      <textarea id="cbt-thought-text" placeholder='e.g. "I deserve this after today"'></textarea>
+      <label>What were you feeling?</label>
+      <div class="pill-group" id="cbt-thought-feeling">
+        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Anxious</div>
+        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Frustrated</div>
+        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Sad</div>
+        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Bored</div>
+        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Angry</div>
+        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Overwhelmed</div>
+      </div>
+      <button class="add-entry-btn" onclick="saveCbtThought('${dk}')">+ Save thought</button>`;
+  }
+
+  if (type === 'challenge') {
+    html += `
+      <label>The thought to challenge</label>
+      <textarea id="cbt-ch-thought" placeholder='e.g. "I can\'t handle this without eating"'></textarea>
+      <label>Is this true, or does it just feel true?</label>
+      <textarea id="cbt-ch-true" placeholder="Be honest with yourself..."></textarea>
+      <label>What would you tell a friend?</label>
+      <textarea id="cbt-ch-friend" placeholder="What advice would you give?"></textarea>
+      <label>Reframe</label>
+      <textarea id="cbt-ch-reframe" placeholder='e.g. "I\'m anxious. Food won\'t fix it."'></textarea>
+      <button class="add-entry-btn" onclick="saveCbtChallenge('${dk}')">+ Save reframe</button>`;
+  }
+
+  if (type === 'urgesurf') {
+    html += `
+      <label>Urge intensity (before)</label>
+      <div class="urge-scale" id="cbt-urge-before">
+        ${[1,2,3,4,5,6,7,8,9,10].map(n => `<div class="urge-num" onclick="urgeSelect('cbt-urge-before',${n},this)">${n}</div>`).join('')}
+      </div>
+      <label>What did you do instead?</label>
+      <div class="pill-group" id="cbt-urge-activity">
+        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Walked</div>
+        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Water</div>
+        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Breathing</div>
+        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Called someone</div>
+        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Did a task</div>
+        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Waited it out</div>
+      </div>
+      <label>Urge intensity (after 15 min)</label>
+      <div class="urge-scale" id="cbt-urge-after">
+        ${[1,2,3,4,5,6,7,8,9,10].map(n => `<div class="urge-num" onclick="urgeSelect('cbt-urge-after',${n},this)">${n}</div>`).join('')}
+      </div>
+      <button class="add-entry-btn" onclick="saveCbtUrge('${dk}')">+ Save entry</button>`;
+  }
+
+  // Show previous entries
+  if (entries.length > 0) {
+    html += '<div class="cbt-entries">';
+    for (const e of entries) {
+      html += '<div class="cbt-entry">' + formatCbtEntry(type, e) + '</div>';
+    }
+    html += '</div>';
+  }
+
+  html += '</div>';
+  return html;
+}
+
+function formatCbtEntry(type, e) {
+  if (type === 'log') {
+    return `<strong>${e.what || '?'}</strong> — ${e.hunger || '?'} hunger, feeling ${e.feeling || '?'}${e.trigger ? ', trigger: ' + e.trigger : ''}`;
+  }
+  if (type === 'thought') {
+    return `"<strong>${e.thought || '?'}</strong>" — feeling ${e.feeling || '?'}`;
+  }
+  if (type === 'challenge') {
+    return `"<strong>${e.thought || '?'}</strong>" &rarr; "${e.reframe || '?'}"`;
+  }
+  if (type === 'urgesurf') {
+    return `Urge: <strong>${e.before || '?'}</strong> &rarr; <strong>${e.after || '?'}</strong> — ${e.activity || '?'}`;
+  }
+  return '';
+}
+
+function pillSelect(groupId, el) {
+  el.classList.toggle('active');
+}
+
+function urgeSelect(groupId, val, el) {
+  const parent = document.getElementById(groupId);
+  parent.querySelectorAll('.urge-num').forEach(n => n.classList.remove('active'));
+  el.classList.add('active');
+  el.dataset.value = val;
+}
+
+function getActivePills(groupId) {
+  const pills = document.querySelectorAll('#' + groupId + ' .pill.active');
+  return Array.from(pills).map(p => p.textContent).join(', ');
+}
+
+function getUrgeValue(groupId) {
+  const active = document.querySelector('#' + groupId + ' .urge-num.active');
+  return active ? active.textContent : '';
+}
+
+function saveCbtLog(dk) {
+  const what = document.getElementById('cbt-log-what').value.trim();
+  if (!what) return;
+  const entries = getCbtEntries(dk, 'log');
+  entries.push({
+    what,
+    hunger: getActivePills('cbt-log-hunger') || 'not set',
+    feeling: getActivePills('cbt-log-feeling') || 'not set',
+    trigger: document.getElementById('cbt-log-trigger').value.trim(),
+  });
+  saveCbtEntries(dk, 'log', entries);
+  render();
+}
+
+function saveCbtThought(dk) {
+  const thought = document.getElementById('cbt-thought-text').value.trim();
+  if (!thought) return;
+  const entries = getCbtEntries(dk, 'thought');
+  entries.push({
+    thought,
+    feeling: getActivePills('cbt-thought-feeling') || 'not set',
+  });
+  saveCbtEntries(dk, 'thought', entries);
+  render();
+}
+
+function saveCbtChallenge(dk) {
+  const thought = document.getElementById('cbt-ch-thought').value.trim();
+  if (!thought) return;
+  const entries = getCbtEntries(dk, 'challenge');
+  entries.push({
+    thought,
+    true_or_feel: document.getElementById('cbt-ch-true').value.trim(),
+    friend: document.getElementById('cbt-ch-friend').value.trim(),
+    reframe: document.getElementById('cbt-ch-reframe').value.trim(),
+  });
+  saveCbtEntries(dk, 'challenge', entries);
+  render();
+}
+
+function saveCbtUrge(dk) {
+  const before = getUrgeValue('cbt-urge-before');
+  if (!before) return;
+  const entries = getCbtEntries(dk, 'urgesurf');
+  entries.push({
+    before,
+    after: getUrgeValue('cbt-urge-after') || '?',
+    activity: getActivePills('cbt-urge-activity') || 'not set',
+  });
+  saveCbtEntries(dk, 'urgesurf', entries);
+  render();
+}
+
+function prevDay() {
+  currentDate = new Date(currentDate.getTime() - 86400000);
+  render();
+}
+
+function nextDay() {
+  currentDate = new Date(currentDate.getTime() + 86400000);
+  render();
+}
+
+function goToday() {
+  currentDate = today();
+  render();
+}
+
+function calcStreak(startDateStr) {
+  const startDate = parseDate(startDateStr);
+  let streak = 0;
+  let d = today();
+
+  // Check today first - if nothing checked today, start from yesterday
+  const todayItems = getActiveItems(getWeekNumber(startDate, d));
+  const todayData = getDayData(dateKey(d));
+  const todayChecked = todayItems.length > 0 && todayItems.every(i => todayData[i.id]);
+
+  if (!todayChecked) {
+    d = new Date(d.getTime() - 86400000);
+  }
+
+  while (d >= startDate) {
+    const wk = getWeekNumber(startDate, d);
+    if (wk < 1) break;
+    const items = getActiveItems(wk);
+    if (items.length === 0) break;
+    const data = getDayData(dateKey(d));
+    const allChecked = items.every(i => data[i.id]);
+    if (allChecked) {
+      streak++;
+      d = new Date(d.getTime() - 86400000);
+    } else {
+      break;
+    }
+  }
+  return streak;
+}
+
+// ---- History Calendar ----
+function toggleHistory() {
+  historyOpen = !historyOpen;
+  render();
+}
+
+function renderHistory(startDateStr) {
+  const startDate = parseDate(startDateStr);
+  const y = historyMonth.getFullYear();
+  const m = historyMonth.getMonth();
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+  const firstDay = new Date(y, m, 1).getDay();
+  const daysInMonth = new Date(y, m + 1, 0).getDate();
+  const todayStr = dateKey(today());
+
+  let html = '<div class="history-card">';
+  html += `
+    <div class="history-month-nav">
+      <button onclick="histPrev()">&larr;</button>
+      <span>${months[m]} ${y}</span>
+      <button onclick="histNext()">&rarr;</button>
+    </div>`;
+  html += '<div class="cal-grid">';
+  ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(d => {
+    html += `<div class="cal-header">${d}</div>`;
+  });
+
+  for (let i = 0; i < firstDay; i++) {
+    html += '<div class="cal-day empty"></div>';
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const d = new Date(y, m, day);
+    const dk = dateKey(d);
+    const wk = getWeekNumber(startDate, d);
+    const isToday = dk === todayStr;
+    const isFuture = d > today();
+
+    let cls = 'cal-day';
+    if (isToday) cls += ' today';
+
+    if (isFuture || wk < 1) {
+      cls += ' no-data';
+    } else {
+      const items = getActiveItems(wk);
+      const data = getDayData(dk);
+      const checked = items.filter(i => data[i.id]).length;
+      const total = items.length;
+      if (total === 0) {
+        cls += ' no-data';
+      } else {
+        const pct = checked / total;
+        if (pct === 0 && Object.keys(data).length === 0) cls += ' no-data';
+        else if (pct >= 0.75) cls += ' green';
+        else if (pct >= 0.4) cls += ' yellow';
+        else cls += ' red';
+      }
+    }
+
+    html += `<div class="${cls}" onclick="goDate(${y},${m},${day})" style="cursor:pointer" title="${dk}">${day}</div>`;
+  }
+
+  html += '</div>';
+  html += `
+    <div class="cal-legend">
+      <span><div class="dot" style="background:var(--green)"></div> 75%+</span>
+      <span><div class="dot" style="background:var(--yellow)"></div> 40-74%</span>
+      <span><div class="dot" style="background:var(--red)"></div> &lt;40%</span>
+      <span><div class="dot" style="background:var(--progress-bg);opacity:0.4"></div> No data</span>
+    </div>`;
+  html += '</div>';
+  return html;
+}
+
+function histPrev() {
+  historyMonth = new Date(historyMonth.getFullYear(), historyMonth.getMonth() - 1, 1);
+  render();
+}
+
+function histNext() {
+  historyMonth = new Date(historyMonth.getFullYear(), historyMonth.getMonth() + 1, 1);
+  render();
+}
+
+function goDate(y, m, d) {
+  currentDate = new Date(y, m, d);
+  if (currentDate > today()) currentDate = today();
+  render();
+}
+
+// ---- Settings ----
+function openSettings() {
+  const s = getSettings();
+  document.getElementById('startDateInput').value = s.startDate || dateKey(today());
+  document.getElementById('settingsModal').classList.add('open');
+}
+
+function closeSettings() {
+  document.getElementById('settingsModal').classList.remove('open');
+}
+
+function saveSettings() {
+  const val = document.getElementById('startDateInput').value;
+  if (!val) return;
+  saveSettingsData({ startDate: val });
+  closeSettings();
+  render();
+}
+
+function confirmClear() {
+  if (confirm('Clear ALL tracking data? This cannot be undone.')) {
+    const keys = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k.startsWith('health-')) keys.push(k);
+    }
+    keys.forEach(k => localStorage.removeItem(k));
+    closeSettings();
+    render();
+  }
+}
+
+// ---- Details Dropdown & Doc Viewer ----
+function toggleDetails(e) {
+  e.stopPropagation();
+  document.getElementById('detailsDropdown').classList.toggle('open');
+}
+
+document.addEventListener('click', function() {
+  document.getElementById('detailsDropdown').classList.remove('open');
+});
+
+function openDoc(title, file) {
+  document.getElementById('detailsDropdown').classList.remove('open');
+  document.getElementById('docTitle').textContent = title;
+  document.getElementById('docContent').textContent = 'Loading...';
+  document.getElementById('docOverlay').classList.add('open');
+  fetch(file)
+    .then(r => r.ok ? r.text() : 'Could not load file.')
+    .then(text => {
+      document.getElementById('docContent').textContent = text;
+    })
+    .catch(() => {
+      document.getElementById('docContent').textContent = 'Could not load file.';
+    });
+}
+
+function closeDoc() {
+  document.getElementById('docOverlay').classList.remove('open');
+}
+
+// ---- Init ----
+render();
+</script>
+</body>
+</html>
