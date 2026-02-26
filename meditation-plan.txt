@@ -1,33 +1,168 @@
-MEDITATION PLAN TEMPLATE
-==========================
+DAILY MEDITATION PLAN
+=======================
 
-Customize this file with your own practice goals.
-Place your personal version in the personal/ folder.
+Yes, meditation will help. It is one of the most studied interventions
+for anxiety, and directly supports the CBT work. The research is clear:
 
-GETTING STARTED
------------------
-- Start at 3 minutes per day
-- Add 1 minute per week
-- Target: 10-15 minutes by week 6
-- Before phone/email in the morning
+  - Reduces baseline anxiety levels (not just in the moment)
+  - Improves ability to notice urges without acting on them
+  - Lowers cortisol (stress hormone that drives belly fat storage)
+  - Reduces pain perception (relevant to your sciatica)
+  - Builds the pause between feeling and reaction — the exact skill
+    you need for emotional eating
 
-HOW TO PRACTICE
------------------
-1. Sit comfortably, close eyes
-2. Focus on breath — in through nose, out through mouth
-3. When mind wanders (it will), gently return to breath
-4. That moment of noticing IS the practice
+You do not need to clear your mind. You do not need to be good at it.
+You just need to sit there and practice noticing.
 
-BREATHING TECHNIQUES
----------------------
-4-7-8 Breathing (for anxiety):
-- Inhale through nose for 4 counts
-- Hold for 7 counts
-- Exhale through mouth for 8 counts
-- Repeat 3-4 cycles
 
-RAIN Technique (for urges):
-- Recognize what is happening
-- Allow the experience to be there
-- Investigate with kindness
-- Non-identify (this feeling is not "me")
+THE ONLY TECHNIQUE YOU NEED TO START
+======================================
+
+Breathing awareness. That is it. Everything else is optional.
+
+  1. Sit in a chair or lie on your back (whatever your back tolerates)
+  2. Close your eyes or look at a spot on the floor
+  3. Breathe normally — do not force it
+  4. Pay attention to the feeling of air coming in and going out
+  5. When your mind wanders (it will, constantly), notice that it
+     wandered and bring attention back to breathing
+  6. That moment of noticing and returning IS the exercise
+     It is not a failure. It is a rep.
+
+
+6-WEEK PROGRESSION
+====================
+
+WEEK 1: 3 MINUTES
+  - Once per day
+  - Set a timer on your phone
+  - Sit quietly and focus on breathing
+  - That is the entire practice
+  - If 3 minutes feels hard, that is normal. Do it anyway.
+
+WEEK 2: 5 MINUTES
+  - Once per day
+  - Same thing. Sit. Breathe. Notice when your mind wanders. Return.
+  - You will spend most of the time distracted. That is fine.
+
+WEEK 3: 5 MINUTES + BODY SCAN
+  - Start with 2 minutes of breathing
+  - Then slowly scan your attention from your feet to your head
+  - At each area, just notice what you feel (tension, warmth, nothing)
+  - Do not try to fix or change anything. Just notice.
+  - This builds the skill of observing discomfort without reacting —
+    the same skill that helps with urge surfing.
+
+WEEK 4: 7 MINUTES
+  - 3 min breathing + 4 min body scan
+  - You may start noticing anxiety as a physical sensation (tight chest,
+    clenched jaw, shallow breathing). This is progress. You are getting
+    better at catching it early.
+
+WEEK 5: 10 MINUTES
+  - 3 min breathing + 5 min body scan + 2 min open awareness
+  - Open awareness: stop focusing on anything specific. Just sit and
+    let sounds, thoughts, and sensations come and go. Watch them like
+    cars passing on a road. You are the observer, not the traffic.
+
+WEEK 6+: 10-15 MINUTES
+  - Find the mix that works for you
+  - Some days all breathing. Some days body scan. Some days just sitting.
+  - The habit matters more than the technique.
+
+
+WHEN TO MEDITATE
+==================
+
+Best times (pick one and make it consistent):
+  - Morning, right after waking (before phone, before coffee)
+  - After your walk
+  - During your pre-bed wind-down routine
+
+If you can only do one: morning. It sets your baseline anxiety lower
+for the entire day, which means fewer eating triggers.
+
+
+THE ANXIETY EMERGENCY TOOL: 4-7-8 BREATHING
+=============================================
+
+This is not meditation. This is a rapid calm-down technique for when
+anxiety spikes and you feel an urge to eat right now.
+
+  1. Breathe in through your nose for 4 seconds
+  2. Hold for 7 seconds
+  3. Breathe out slowly through your mouth for 8 seconds
+  4. Repeat 3-4 times
+
+This activates your parasympathetic nervous system (the opposite of
+fight-or-flight). It physically slows your heart rate and lowers
+adrenaline. Use it before you open the fridge.
+
+
+THE EATING-SPECIFIC MEDITATION: RAIN
+======================================
+
+Use this when you feel an emotional eating urge. It pairs directly
+with the CBT urge surfing technique.
+
+  R - Recognize: "I'm having an urge to eat."
+  A - Allow: "This urge is here. I don't have to fight it or feed it."
+  I - Investigate: "Where do I feel this in my body? What emotion is
+      underneath? What am I actually needing right now?"
+  N - Non-identification: "This urge is not me. It is something passing
+      through me. I can watch it without becoming it."
+
+Takes 2-3 minutes. Can be done anywhere — sitting at your desk,
+standing in the kitchen, in your car.
+
+
+COMMON OBSTACLES
+==================
+
+"I can't stop my thoughts."
+  You are not supposed to. The practice is noticing them and returning
+  to your breath. A meditation full of distractions where you kept
+  returning is a successful meditation.
+
+"I feel more anxious when I sit still."
+  Normal in the first 1-2 weeks. You are not creating anxiety — you are
+  noticing anxiety that was always there but covered up by distractions.
+  It gets better. If it feels overwhelming, open your eyes and shorten
+  the session.
+
+"I keep forgetting to do it."
+  Anchor it to something you already do. Right after brushing teeth.
+  Right after your morning coffee is poured. Right after your walk.
+  Same time, same place, every day.
+
+"I fell asleep."
+  Sit upright instead of lying down. Also a sign you need more sleep
+  (see sleep plan).
+
+"I missed a day / a week / a month."
+  Sit down for 3 minutes today. You are back.
+
+
+APPS THAT HELP (ALL HAVE FREE OPTIONS)
+========================================
+  - Insight Timer (free, large library of guided meditations)
+  - UCLA Mindful (free, research-based, simple)
+  - Headspace (paid, very structured for beginners)
+  - Calm (paid, good sleep content too)
+
+You do not need an app. Timer on your phone works fine. But guided
+sessions can help in the first few weeks if sitting in silence feels
+too hard.
+
+
+HOW THIS CONNECTS TO EVERYTHING ELSE
+=======================================
+  Meditation + CBT guide  = handles the anxiety and emotional eating
+  Walking                 = burns stress hormones and improves mood
+  Sleep plan              = reduces baseline anxiety and pain sensitivity
+  Diet plan               = gives you a simple structure so food decisions
+                            are not emotional decisions
+  Core exercises          = reduces pain, which reduces stress, which
+                            reduces emotional eating
+
+They all reinforce each other. Start with what you can. Add over time.

@@ -1,27 +1,181 @@
-WALKING PLAN TEMPLATE
-=======================
+WALKING PLAN — 12 WEEK PROGRESSION
+=====================================
 
-Customize this file with your own walking goals.
-Place your personal version in the personal/ folder.
+Starting point: Deconditioned, gets winded fast, sciatica risk
+Goal: Build to 30-45 minutes of continuous walking most days
 
-GETTING STARTED
------------------
-- Week 1: 4 walks of 10 min each on flat surfaces
-- Add 2-5 min per week progressively
-- Target: 30-45 min walks by week 8-9
 
-GUIDELINES
------------
-- Same time daily builds habit fastest
-- Flat, even surfaces to start
-- Comfortable supportive shoes
-- Stop if sharp or radiating pain
-- If pain flares, shorten next walk by 5 min
+BEFORE YOU START
+=================
+- Wear supportive shoes with good cushioning (replace if worn out)
+- Walk on flat, even surfaces to start (sidewalks, tracks, malls)
+- Avoid hills and uneven terrain until week 6+
+- Walk at a pace where you can hold a conversation but feel slightly winded
+- Stop immediately if you get sharp pain or radiating leg symptoms
 
-PROGRESSION
-------------
-Week 1:  4 x 10 min
-Week 2:  4 x 12-15 min
-Week 3:  4 x 15-20 min
-Week 4:  4 x 20-25 min
-Week 5+: Continue adding 2-5 min/week
+
+PHASE 1: BUILD THE HABIT (WEEKS 1-4)
+======================================
+
+Week 1:
+  Mon  10 min
+  Tue  Rest
+  Wed  10 min
+  Thu  Rest
+  Fri  10 min
+  Sat  10 min
+  Sun  Rest
+
+Week 2:
+  Mon  12 min
+  Tue  Rest
+  Wed  12 min
+  Thu  Rest
+  Fri  12 min
+  Sat  15 min
+  Sun  Rest
+
+Week 3:
+  Mon  15 min
+  Tue  Rest
+  Wed  15 min
+  Thu  10 min
+  Fri  15 min
+  Sat  15 min
+  Sun  Rest
+
+Week 4:
+  Mon  15 min
+  Tue  10 min
+  Wed  15 min
+  Thu  Rest
+  Fri  15 min
+  Sat  20 min
+  Sun  Rest
+
+
+PHASE 2: BUILD DURATION (WEEKS 5-8)
+=====================================
+
+Week 5:
+  Mon  20 min
+  Tue  10 min
+  Wed  20 min
+  Thu  Rest
+  Fri  20 min
+  Sat  20 min
+  Sun  Rest
+
+Week 6:
+  Mon  20 min
+  Tue  15 min
+  Wed  20 min
+  Thu  Rest
+  Fri  20 min
+  Sat  25 min
+  Sun  Rest
+
+Week 7:
+  Mon  25 min
+  Tue  15 min
+  Wed  25 min
+  Thu  Rest
+  Fri  25 min
+  Sat  25 min
+  Sun  Rest
+
+Week 8:
+  Mon  25 min
+  Tue  15 min
+  Wed  25 min
+  Thu  15 min
+  Fri  25 min
+  Sat  30 min
+  Sun  Rest
+
+
+PHASE 3: BUILD CONSISTENCY (WEEKS 9-12)
+=========================================
+
+Week 9:
+  Mon  30 min
+  Tue  15 min
+  Wed  30 min
+  Thu  15 min
+  Fri  30 min
+  Sat  30 min
+  Sun  Rest
+
+Week 10:
+  Mon  30 min
+  Tue  20 min
+  Wed  30 min
+  Thu  20 min
+  Fri  30 min
+  Sat  35 min
+  Sun  Rest
+
+Week 11:
+  Mon  30 min
+  Tue  20 min
+  Wed  30 min
+  Thu  20 min
+  Fri  30 min
+  Sat  35 min
+  Sun  Rest or easy 15 min
+
+Week 12:
+  Mon  30 min
+  Tue  20 min
+  Wed  35 min
+  Thu  20 min
+  Fri  30 min
+  Sat  40 min
+  Sun  Rest or easy 15 min
+
+
+AFTER 12 WEEKS
+================
+- Maintain 30-45 min walks 5-6 days per week
+- Start adding gentle hills or inclines if sciatica allows
+- Increase pace gradually rather than adding more time
+- Consider adding a longer walk on weekends (45-60 min)
+
+
+SCIATICA MANAGEMENT DURING WALKS
+==================================
+- If symptoms start during a walk, stop and do a standing back extension
+  (hands on hips, gently lean back, hold 5 seconds, repeat 3-5 times)
+- Shorten the next walk by 5 minutes and rebuild from there
+- Avoid walking through radiating leg pain — mild back tightness is ok,
+  nerve pain is not
+- If a flare-up happens, take 1-2 rest days then resume at a shorter duration
+- Do not restart the entire plan — just drop back a week and continue
+
+
+TIPS
+=====
+- Same time every day builds the habit fastest (morning is best for most people)
+- Bad weather: walk in a mall, big box store, or on a treadmill
+- Bring your phone for music or podcasts — makes time pass faster
+- Track your walks (phone app, notebook, calendar check marks)
+- A missed day is not a failure. Just walk the next day.
+- Soreness is normal. Sharp pain is not. Know the difference.
+
+
+WEEKLY SUMMARY
+===============
+
+Week    Days    Longest Walk
+  1      4       10 min
+  2      4       15 min
+  3      5       15 min
+  4      5       20 min
+  5      5       20 min
+  6      5       25 min
+  7      5       25 min
+  8      6       30 min
+  9      6       30 min
+ 10      6       35 min
+ 11      6       35 min
+ 12      6       40 min

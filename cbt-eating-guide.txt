@@ -1,52 +1,223 @@
 CBT GUIDE FOR ANXIETY-DRIVEN EATING
 ======================================
 
-Customize this file with your own notes and insights.
-Place your personal version in the personal/ folder.
+Cognitive Behavioral Therapy (CBT) is the most studied and effective
+psychological approach for changing eating patterns tied to emotions.
+The core idea: your thoughts drive your feelings, and your feelings
+drive your behavior. Change the thoughts, change the behavior.
+
+This is a self-guided version. If you find it helpful but want to go
+deeper, a few sessions with a CBT therapist can accelerate the process
+significantly.
+
 
 THE ANXIETY-EATING CYCLE
 ==========================
-Trigger > Anxious thought > Uncomfortable feeling > Urge to eat >
-Eat (temporary relief) > Guilt > Repeat
 
-The goal: break the chain between feeling and eating.
+  Trigger (stress, boredom, worry, pain)
+       |
+  Anxious thought ("I can't handle this", "I deserve a break")
+       |
+  Uncomfortable feeling (tension, restlessness, dread)
+       |
+  Urge to eat (seeking comfort/distraction/numbing)
+       |
+  Eat (temporary relief)
+       |
+  Guilt/frustration (which becomes the next trigger)
+       |
+  Repeat
 
-STEP 1: AWARENESS (Week 1-2)
--------------------------------
-Log any eating outside planned meals:
-- Time, what you ate, hunger type (physical vs emotional)
-- Feeling before, trigger, feeling after
-- No judgment — just collecting data
+The goal is not to eliminate anxiety. The goal is to break the chain
+between the feeling and the eating.
 
-STEP 2: CATCH THE THOUGHT (Week 3-4)
----------------------------------------
-Common automatic thoughts:
-- "I need something to take the edge off"
-- "I've had a hard day, I deserve this"
-- "One won't hurt" / "I'll start fresh tomorrow"
-When you notice an urge, ask: "What thought just happened?"
 
-STEP 3: CHALLENGE & REFRAME (Week 5-6)
------------------------------------------
-Run the thought through these questions:
-1. Is this actually true, or does it just feel true?
-2. What would I tell a friend who said this?
-3. Will eating actually solve what I'm anxious about?
-4. How will I feel 30 minutes after eating this?
+STEP 1: AWARENESS — THE FOOD/MOOD LOG
+=======================================
 
-STEP 4: URGE SURFING (Week 7-8)
-----------------------------------
-1. Notice the urge — "I'm having an urge. That's fine."
-2. Rate it 1-10
-3. Set a 15-minute timer
-4. Do something else: walk, water, breathe, call someone
-5. Re-rate after timer — it will almost always be lower
+For the first 2 weeks, simply notice and write down. No changes needed yet.
+Awareness alone reduces the behavior. Use a notebook, phone notes, whatever
+is easiest.
 
-THINKING TRAPS
-================
-- All-or-nothing: "I ate a cookie so the day is ruined"
-- Catastrophizing: "I'll never be able to change"
-- Emotional reasoning: "I feel like a failure, so I must be one"
-- Permission giving: "I've been good all week"
+Every time you eat outside of a planned meal, write:
 
-Reality: Feelings are not facts. Progress, not perfection.
+  Time:       ___________
+  What I ate: ___________
+  Hunger?     Physical hunger (stomach growling) or emotional (just want it)?
+  Feeling:    What was I feeling right before? (anxious, bored, stressed,
+              tired, frustrated, lonely, in pain)
+  Trigger:    What happened in the 30 min before? (argument, work stress,
+              bad news, nothing specific, pain flare)
+  After:      How do I feel now?
+
+You are not judging yourself. You are collecting data. After 2 weeks you
+will see clear patterns — specific feelings and situations that trigger eating.
+
+
+STEP 2: CATCH THE THOUGHT
+===========================
+
+Anxiety-driven eating is powered by automatic thoughts. These are fast,
+habitual, and feel like facts. They are not facts.
+
+Common ones:
+  "I need something to take the edge off."
+  "I've had a hard day, I deserve this."
+  "One won't hurt."
+  "I'll start fresh tomorrow."
+  "I can't relax without eating something."
+  "Screw it, what's the point."
+
+When you notice an urge to eat outside a planned meal, pause and ask:
+  "What thought just went through my head?"
+
+Write it down. That is the thought driving the behavior.
+
+
+STEP 3: CHALLENGE THE THOUGHT
+===============================
+
+Once you catch the thought, run it through these questions:
+
+  1. Is this actually true, or does it just feel true?
+  2. What would I tell a friend who said this to me?
+  3. Will eating actually solve the thing I'm anxious about?
+  4. How will I feel 30 minutes after eating this?
+  5. What is the feeling I'm actually trying to fix right now?
+
+Then reframe the thought:
+
+  Old: "I need something to take the edge off."
+  New: "I'm feeling anxious. Food won't fix the anxiety. It will be
+       gone in 20 minutes whether I eat or not."
+
+  Old: "I deserve this after today."
+  New: "I deserve to feel good tomorrow morning. Eating this won't
+       help with that."
+
+  Old: "Screw it, what's the point."
+  New: "That's frustration talking, not logic. One good choice right
+       now matters."
+
+You do not need to believe the new thought perfectly. You just need to
+say it and sit with it.
+
+
+STEP 4: RIDE THE WAVE (URGE SURFING)
+======================================
+
+An eating urge is like a wave. It builds, peaks, and passes. It will not
+last forever. Most urges pass within 10-20 minutes if you do not feed them.
+
+When an urge hits:
+
+  1. Notice it: "I'm having an urge to eat. That's fine. It's just a feeling."
+  2. Rate it: 1-10, how strong is it?
+  3. Set a timer for 15 minutes.
+  4. Do one of these instead:
+     - Walk outside (even 5 minutes)
+     - Drink a full glass of water
+     - Do your breathing exercise (see meditation plan)
+     - Call or text someone
+     - Do a small task (dishes, laundry, organize something)
+  5. When the timer goes off, rate the urge again. It will almost always
+     be lower.
+  6. If you still want to eat after 15 minutes and honest reflection,
+     eat — but slowly and intentionally, not standing at the counter.
+
+Every time you ride out an urge, you weaken the habit loop. This is
+where the real change happens.
+
+
+STEP 5: BUILD ALTERNATIVE RESPONSES
+=====================================
+
+Anxiety needs an outlet. If you remove eating, you need to give it
+somewhere else to go. Match the replacement to the actual need:
+
+  If the need is comfort:    warm shower, cup of tea, call a friend
+  If the need is distraction: walk, podcast, puzzle, small project
+  If the need is numbing:     this is the hardest one — sit with the
+                              feeling using meditation (see meditation plan)
+  If the need is a reward:    plan non-food rewards (new music, a show
+                              you're saving, 20 min doing something you enjoy)
+  If the need is boredom:     boredom is often anxiety in disguise —
+                              check what you're actually feeling
+
+
+COMMON CBT THINKING TRAPS
+===========================
+
+Learn to recognize these. They fuel anxiety and emotional eating.
+
+All-or-nothing thinking:
+  "I ate a cookie so the whole day is ruined."
+  Reality: One cookie is 200 calories. The day is fine.
+
+Catastrophizing:
+  "I'll never be able to change."
+  Reality: You are working on it right now.
+
+Emotional reasoning:
+  "I feel like a failure, so I must be one."
+  Reality: Feelings are not facts.
+
+Should statements:
+  "I should be able to just stop."
+  Reality: Decades of habit don't vanish overnight. Progress is the goal.
+
+Permission giving:
+  "I've been good all week."
+  Reality: This is not a punishment/reward system. It's a lifestyle.
+
+
+WEEKLY PRACTICE SCHEDULE
+==========================
+
+Week 1-2:   Food/mood log only. Just observe. No pressure to change.
+Week 3-4:   Start catching automatic thoughts. Write them down.
+Week 5-6:   Practice challenging and reframing thoughts.
+Week 7-8:   Practice urge surfing. Delay eating urges by 15 minutes.
+Week 9+:    Build and refine your alternative response toolkit.
+Ongoing:    Daily meditation (see meditation plan).
+
+
+ALCOHOL AND ANXIETY
+======================
+
+This deserves its own section. If you use alcohol to manage anxiety —
+even casually ("I just need a drink to unwind") — be honest with yourself
+about it.
+
+Alcohol is a depressant that temporarily reduces anxiety. But it causes
+rebound anxiety the next day (your nervous system compensates by ramping
+UP anxiety chemicals). This creates a cycle:
+
+  Anxiety -> drink -> temporary relief -> worse anxiety next day ->
+  drink again -> worse anxiety...
+
+It also:
+- Destroys sleep quality (even if you fall asleep faster)
+- Adds 150-300+ empty calories per drink
+- Lowers inhibitions around food (drunk/buzzed eating)
+- Worsens inflammation (more pain, more sciatica triggers)
+
+What to do:
+- Notice if you're reaching for a drink for the same reasons you reach
+  for food: stress, boredom, anxiety, pain
+- Use the same CBT tools: catch the thought, challenge it, ride the wave
+- The 4-7-8 breathing technique works for alcohol urges too
+- If you find you cannot cut back despite wanting to, tell your doctor.
+  There are effective, low-stigma medical options. This is not a
+  willpower problem.
+
+
+REALISTIC EXPECTATIONS
+========================
+- You will not do this perfectly. That is not the goal.
+- The goal is to eat emotionally less often, not never.
+- Progress looks like: binge 5x a week -> 3x a week -> 1x a week ->
+  occasionally. That is a massive win.
+- Setbacks are data, not failures. When you slip, do the log:
+  what was the trigger, the thought, the feeling? Now you know more.
+- Be patient with yourself. You are rewiring decades of coping patterns.

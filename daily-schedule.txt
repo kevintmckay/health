@@ -1,25 +1,250 @@
-DAILY SCHEDULE TEMPLATE
-========================
+DAILY SCHEDULE — EVERYTHING TIED TOGETHER
+============================================
 
-Customize this file with your own daily routine.
-Place your personal version in the personal/ folder.
+This is a realistic daily framework, not a rigid timetable. Adjust the
+specific times to fit your life. What matters is the order and the habits.
+
+IMPORTANT: You do not do all of this on day one. See the phased rollout
+at the bottom of this document.
+
 
 MORNING
---------
-- Wake at consistent time
-- 10 min daylight exposure within 30 min of waking
-- 3-15 min meditation before checking phone/email
-- Breakfast following your diet plan
+========
+
+Wake up (same time every day, including weekends)
+  |
+  v
+Get outside for 10 minutes of daylight
+  - Walk to the mailbox, sit on the porch, stand in the yard
+  - This resets your circadian rhythm (see sleep plan)
+  |
+  v
+Meditation (3-15 min depending on your current week)
+  - Sit in a chair, breathing focus
+  - Do this before you check your phone or email
+  - See meditation plan for weekly progression
+  |
+  v
+Breakfast
+  - Protein-first meal from the diet plan
+  - Eat at the table, not standing or in front of a screen
+  - No decisions here — pick from your list and make it routine
+  |
+  v
+Morning walk
+  - Follow the walking plan for your current week's duration and days
+  - Rest days are in the walking plan — on those days, skip this
+  - Flat surface, comfortable pace
+  - This is your main cardio for the day
+
 
 MIDDAY
--------
-- Scheduled walk or exercise
-- Planned meals with proper portions
-- CBT check-in: pause before eating, notice feelings
+=======
+
+Lunch
+  - Protein + vegetables + small starch from the diet plan
+  - Last caffeine of the day must be before this meal
+  |
+  v
+Exercise session (on scheduled days — see programming below)
+  - Routine A days: McGill Big 3 + hip exercises (15-20 min)
+  - Routine B days: Resistance exercises (10-15 min)
+  - See core-exercises.txt for all exercise details and progressions
+  - Stretches (hip flexor + piriformis) go at the end when muscles are warm
+
+
+AFTERNOON
+==========
+
+This is the highest risk window for emotional eating.
+Most people hit an energy dip and an anxiety spike between 2-5 PM.
+
+WEEKS 1-2: Just notice. If you eat outside a planned meal, log it in
+your food/mood journal afterward: what you ate, what you were feeling,
+what happened before. No pressure to change anything yet. You are
+collecting data.
+
+WEEKS 3-4: Start catching the thought. When you feel an urge, pause
+and ask: "What thought just went through my head?" Write it down.
+Still no pressure to resist the urge.
+
+WEEKS 5+: Now start using the full toolkit:
+  1. Pause. Do not go to the kitchen yet.
+  2. Run the RAIN check (Recognize, Allow, Investigate, Non-identify)
+  3. Ask: "Am I physically hungry or emotionally hungry?"
+  4. If emotional: set a 15-minute timer, do something from your
+     alternatives list (walk, water, call someone, small task)
+  5. If physically hungry: have your planned snack (protein-based)
+  6. Log it in your food/mood journal either way
+
+Planned snack (if needed, any week)
+  - Greek yogurt, protein shake, string cheese + turkey, hard boiled eggs
+  - Eat it intentionally, sitting down
+
 
 EVENING
---------
-- Wind-down routine 30-60 min before bed
-- Kitchen closes at set time
-- Dim lights, screens off
-- Consistent bedtime
+========
+
+Dinner
+  - Protein + vegetables + small starch from the diet plan
+  - Eat at the table
+  - Stop eating when you are satisfied, not stuffed
+  - No seconds for 10 minutes — if still hungry after 10, have more
+    vegetables or protein
+  |
+  v
+After dinner
+  - If you have pool access, this is a good time for aquatic exercise
+    (2x per week, see fitness plan)
+  - Light activity is fine (easy walk, stretching, household tasks)
+  - No intense exercise within 2 hours of bedtime
+  |
+  v
+Kitchen closes
+  - Pick a time (eg. 8:00 PM) and stop eating after that
+  - Brush your teeth — this is a psychological signal that eating is done
+  - If an urge hits after close: tea, water, or 4-7-8 breathing
+
+
+BEFORE BED
+===========
+
+Wind-down routine starts 30-60 min before bedtime
+  |
+  v
+  - Dim the lights, overhead lights off, lamps on
+  - Screens off or night mode
+  - No news, work email, or stressful content
+  |
+  v
+15-30 min before bed:
+  - Light stretching (hip flexor stretch and piriformis stretch are
+    good here if you didn't do them earlier)
+  - Read a book in a chair (not in bed — keep bed for sleep only)
+  - Warm shower
+  - Optional: short body scan meditation while seated
+  |
+  v
+Lights out (same time every night)
+  - Phone face down or in another room
+  - Pillow under knees (back sleeping) or between knees (side sleeping)
+  - If not asleep in 20 min, get up and sit in dim light until drowsy
+
+
+CBT CHECK-IN (2 MINUTES, ANYTIME)
+===================================
+
+Once per day, write in your food/mood log. Can be at lunch, after
+dinner, or before bed. Whatever you will actually do.
+
+  Did I eat outside my planned meals today?   Y / N
+  If yes:
+    What was I feeling?    ___________
+    What was the thought?  ___________
+    What was the trigger?  ___________
+  What went well today?    ___________
+
+
+SAMPLE DAY — WEEK 6+ (FULLY FILLED IN)
+=========================================
+
+  6:30 AM   Wake up, go outside for daylight
+  6:45 AM   Meditation (10 min)
+  7:00 AM   Breakfast: eggs + toast
+  7:30 AM   Morning walk (30 min per walking plan)
+  8:15 AM   Shower, start your day
+
+ 12:00 PM   Lunch: chicken + rice + vegetables (last caffeine)
+ 12:45 PM   Core + hip exercises or resistance work (15-20 min)
+
+  3:00 PM   Urge check-in. Water. RAIN or 4-7-8 breathing if needed.
+  3:30 PM   Snack if physically hungry: Greek yogurt
+
+  6:00 PM   Dinner: salmon + broccoli + sweet potato
+  6:30 PM   Easy walk or pool session (pool 2x/week)
+  8:00 PM   Kitchen closes. Brush teeth.
+
+  9:30 PM   Wind-down starts. Lights dim. Screens off.
+  9:45 PM   CBT journal check-in (2 min). Read in a chair.
+ 10:30 PM   Lights out
+
+
+WEEKLY VIEW — AFTER FULL ROLLOUT (WEEK 6+)
+=============================================
+
+         Walk    Routine A    Routine B    Pool    Meditation    CBT Log
+         (per    (core+hip)   (resistance)
+         plan)
+  Mon     x        x                               x             x
+  Tue     x                     x                   x             x
+  Wed     x        x                               x             x
+  Thu     x                     x           x       x             x
+  Fri     x        x                               x             x
+  Sat     x                     x           x       x             x
+  Sun    rest     rest         rest                 x             x
+
+Adjust pool days to fit your schedule. The key is 2x per week.
+
+
+PHASED ROLLOUT — DO NOT SKIP THIS
+====================================
+
+WEEK 1:
+  - Set consistent wake and sleep times
+  - Morning daylight (10 min)
+  - Walking per walking plan (4 days this week)
+  - Start eating from the diet plan (ramp protein gradually)
+  - Meditation: 3 minutes/day
+  - Start food/mood log (just observe, no changes)
+
+WEEK 2:
+  - Continue all of the above
+  - Walking per plan (4 days)
+  - Meditation: 5 minutes/day
+  - Kitchen closes rule starts
+
+WEEK 3:
+  - Add Routine A: McGill Big 3 + hip exercises (3x/week)
+  - Walking per plan (5 days now)
+  - CBT: start catching automatic thoughts
+  - Meditation: 5 min + body scan
+
+WEEK 4:
+  - Add Routine B: resistance exercises (2x/week)
+  - Walking per plan (5 days)
+  - Meditation: 7 minutes/day
+
+WEEK 5:
+  - Add pool/aquatic exercise (2x/week) if available
+  - CBT: start challenging and reframing thoughts
+  - Meditation: 10 minutes/day
+
+WEEK 6+:
+  - Full routine as shown in the weekly view above
+  - CBT: start urge surfing with the full afternoon protocol
+  - Continue progressing walking, exercises, and meditation per their plans
+
+
+ACCOUNTABILITY
+================
+Tell one person what you are doing. Research consistently shows this
+improves long-term adherence. It does not need to be a big announcement.
+
+Options:
+  - A friend, partner, or family member
+  - A walking partner (makes you show up on days you don't want to)
+  - Your doctor or physical therapist
+  - An online community (Reddit r/loseit, r/fitness, etc.)
+  - Even just a daily text to someone: "walked 15 min today"
+
+You do not need a coach or a gym membership. You just need one person
+who knows you're doing this.
+
+
+IF YOU GET DERAILED
+=====================
+- A bad day is not a reset. Do the next thing on the schedule.
+- A bad week is not a failure. Pick back up where you left off.
+- A sciatica flare is not the end — see flare-up-protocol.txt for
+  what to keep doing and what to pause.
+- A 70% day beats a 0% day every single time.

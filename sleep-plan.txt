@@ -1,31 +1,145 @@
-SLEEP PLAN TEMPLATE
-=====================
+SLEEP PLAN — FIXING YOUR FOUNDATION
+======================================
 
-Customize this file with your own sleep goals.
-Place your personal version in the personal/ folder.
+Goal: 7-8 hours of quality sleep on a consistent schedule
+Why: Sleep directly affects pain sensitivity, weight loss, recovery, and motivation
 
-SCHEDULE
----------
-- Pick a wake time and keep it consistent 7 days/week
-- Work backward 8 hours for your bedtime
-- Even on weekends — consistency is key
 
-MORNING ROUTINE
------------------
-- 10 min daylight within 30 min of waking
-- Resets circadian rhythm for better sleep
-- Overcast days still count
+PICK YOUR TIMES
+=================
+Choose a wake time and work backward 8 hours. Stick to these 7 days a week.
 
-WIND-DOWN (30-60 min before bed)
-----------------------------------
-- Dim lights throughout the house
-- Screens off or use night mode
-- No news, social media, or stressful content
-- Light reading, stretching, or breathing exercises
+Example schedules:
+  Early bird:    10:00 PM bedtime  ->  6:00 AM wake
+  Standard:      10:30 PM bedtime  ->  6:30 AM wake
+  Night owl:     11:00 PM bedtime  ->  7:00 AM wake
 
-ENVIRONMENT
-------------
-- Room temperature: 65-68 F (18-20 C)
-- Blackout dark — no light sources
-- Pillow positioning for your sleep style
-- No phone within arm's reach
+Your schedule:
+  Bedtime:  ___________
+  Wake up:  ___________
+
+The single most important rule: Keep your wake time the same every day,
+including weekends. This anchors your circadian rhythm faster than anything else.
+
+
+WEEK 1-2: SET THE ANCHOR
+==========================
+- Pick your wake time and set an alarm. Get up at that time no matter what.
+- Get outside within 30 minutes of waking. 10 minutes of daylight resets
+  your internal clock. Overcast days still work.
+- Stop caffeine after 12:00 PM (noon). Caffeine has a 6-8 hour half-life.
+  That 3 PM coffee is still in your system at 11 PM.
+- No naps longer than 20 minutes. If you must nap, before 2 PM only.
+
+
+WEEK 3-4: BUILD THE WIND-DOWN
+===============================
+Start a simple pre-bed routine 30-60 minutes before your bedtime.
+
+30-60 min before bed:
+  - Dim the lights in your house (overhead lights off, lamps on)
+  - Screens off or use night mode (phone, TV, tablet)
+  - No work email, news, or stressful content
+
+15-30 min before bed:
+  - Light stretching or the McGill Big 3 at low intensity (optional)
+  - Read a book (paper, not screen)
+  - Warm shower or bath (the cooling effect afterward promotes sleep)
+
+At bedtime:
+  - Lights out
+  - Phone face down or in another room
+  - If not asleep in 20 minutes, get up and sit quietly in dim light
+    until you feel drowsy, then return to bed
+
+
+YOUR BEDROOM
+==============
+Make your room work for sleep, not against it.
+
+Temperature:
+  - 65-68 degrees F is ideal for most people
+  - Cool room + warm blanket is the best combination
+  - A fan helps with both temperature and white noise
+
+Darkness:
+  - As dark as possible
+  - Blackout curtains if street light comes in
+  - Cover any LED lights (alarm clock, charger, etc.)
+  - If blackout curtains are not an option, use a sleep mask
+
+Noise:
+  - Quiet or consistent background noise (fan, white noise machine)
+  - Earplugs if you have a noisy environment
+  - Phone on silent (not vibrate)
+
+Bed:
+  - Use your bed for sleep only (not TV, phone scrolling, work)
+  - Read in a chair, not in bed — move to bed only when drowsy
+  - This trains your brain that bed = sleep
+
+
+SCIATICA AND SLEEP POSITIONS
+==============================
+Back pain and sciatica can make sleep difficult. These positions reduce
+spinal stress:
+
+On your back:
+  - Place a pillow under your knees
+  - This flattens the lumbar curve and takes pressure off the spine
+  - Best position for most people with sciatica
+
+On your side:
+  - Place a pillow between your knees
+  - Keep knees slightly bent
+  - This keeps your hips aligned and prevents rotation
+
+Avoid:
+  - Stomach sleeping (forces spinal extension and neck rotation)
+  - Twisted or half-stomach positions
+
+
+THINGS THAT WRECK SLEEP
+=========================
+- Alcohol: Feels like it helps but fragments sleep and kills deep sleep stages.
+  If you drink, stop at least 3 hours before bed.
+- Large meals within 2 hours of bedtime (acid reflux, discomfort)
+- Exercise within 2 hours of bedtime (raises core temperature)
+- Checking the clock when you wake at night (creates anxiety)
+  Turn the clock away from you.
+- Blue light from screens after your wind-down starts
+- Irregular schedule (sleeping in on weekends undoes the whole week)
+
+
+TROUBLESHOOTING
+================
+
+Can't fall asleep:
+  - Get up after 20 minutes. Sit in dim light. Return when drowsy.
+  - Do not lie there frustrated. That trains your brain that bed = awake.
+  - Try a body scan: mentally relax from toes to head, one body part at a time.
+
+Wake up in the middle of the night:
+  - Normal. Most people wake briefly 2-3 times per night.
+  - Do not check your phone or the clock.
+  - If still awake after 20 minutes, get up briefly then return.
+
+Wake up too early:
+  - If within 30 min of your alarm, just get up.
+  - If hours early, check if you are going to bed too early.
+
+Still exhausted after 8 hours:
+  - Could be sleep apnea. Very common at this weight and age.
+  - Symptoms: loud snoring, gasping at night, dry mouth on waking,
+    headaches in the morning.
+  - Talk to your doctor. A sleep study can diagnose it.
+  - This is worth checking — untreated sleep apnea sabotages everything else.
+
+
+PROGRESS MARKERS
+==================
+Week 1:    Consistent wake time established
+Week 2:    Caffeine cutoff and morning light exposure are habits
+Week 3-4:  Wind-down routine in place, falling asleep faster
+Week 6+:   Waking before your alarm naturally
+Week 8+:   Noticeably more energy, less pain sensitivity, better workouts
