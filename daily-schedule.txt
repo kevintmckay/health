@@ -49,7 +49,7 @@ Lunch
 Exercise session (on scheduled days — see programming below)
   - Routine A days: McGill Big 3 + hip exercises (15-20 min)
   - Routine B days: Resistance exercises (10-15 min)
-  - See core-exercises.txt for all exercise details and progressions
+  - See reference/core-exercises.txt for all exercise details and progressions
   - Stretches (hip flexor + piriformis) go at the end when muscles are warm
 
 
@@ -245,6 +245,6 @@ IF YOU GET DERAILED
 =====================
 - A bad day is not a reset. Do the next thing on the schedule.
 - A bad week is not a failure. Pick back up where you left off.
-- A sciatica flare is not the end — see flare-up-protocol.txt for
+- A sciatica flare is not the end — see reference/flare-up-protocol.txt for
   what to keep doing and what to pause.
 - A 70% day beats a 0% day every single time.

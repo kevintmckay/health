@@ -487,8 +487,8 @@ Stop overthinking. Start executing.
 RELATED FILES
 =============
 - eating-guide.txt (detailed version)
-- protein-guide.txt (all protein sources)
-- shopping-list.txt (complete weekly list)
-- supplement-guide.txt (what pills to take)
+- reference/protein-guide.txt (all protein sources)
+- reference/shopping-list.txt (complete weekly list)
+- reference/supplement-guide.txt (what pills to take)
 - daily-schedule.txt (full day structure)
-- cbt-eating-guide.txt (emotional eating strategies)
+- reference/cbt-eating-guide.txt (emotional eating strategies)
