@@ -377,4 +377,4 @@ WHEN TO DO THEM
 - Can be done before or after your walk
 - Stretches are best after activity when muscles are warm
 - Do NOT do them when already fatigued or during a sciatica flare
-  (see reference/flare-up-protocol.txt)
+  (see flare-up-protocol.txt)

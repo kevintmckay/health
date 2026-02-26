@@ -31,8 +31,8 @@ At 6ft/235lbs, losing 20-30lbs will dramatically reduce spinal load and
 sciatica flares.
 
 Protocol:
-- Aim for ~0.7-1g protein per lb of goal body weight (~150-180g/day)
-- Ramp protein gradually over 2-3 weeks (don't jump to 160g on day one)
+- Aim for 120-140g protein per day
+- Ramp protein gradually over 2-3 weeks (don't jump to 140g on day one)
 - High protein preserves muscle during weight loss and has the highest satiety per calorie
 - Cut liquid calories (soda, juice, alcohol) — this alone often creates a meaningful deficit
 - Protein + vegetables at every meal + modest portions
@@ -81,7 +81,7 @@ Basic resistance training:
   - Without resistance training, a significant portion of weight lost will
     be muscle, leaving you lighter but still weak
 
-See reference/core-exercises.txt for all exercise descriptions, form cues, and progressions.
+See core-exercises.txt for all exercise descriptions, form cues, and progressions.
 
 Why it matters: Addresses your spine, your hips, and age-related muscle loss
 in one combined program. 15-20 minutes per session.
@@ -100,7 +100,7 @@ Protocol:
 - Keep consistent bed and wake times (consistency matters more than total hours)
 - Limit screens 30-60 min before bed
 
-See reference/sleep-plan.txt for the full protocol, bedroom setup, and troubleshooting.
+See sleep-plan.txt for the full protocol, bedroom setup, and troubleshooting.
 
 Why it matters: Fixing sleep amplifies the returns on every other intervention.
 
@@ -145,7 +145,7 @@ Beyond 12 months:
 FLARE-UP PROTOCOL
 ==================
 Sciatica flares happen. A flare is not a reason to quit — it's a reason
-to shift gears temporarily. See reference/flare-up-protocol.txt for the full plan.
+to shift gears temporarily. See flare-up-protocol.txt for the full plan.
 
 Quick reference:
 - KEEP doing: meditation, diet, sleep schedule, CBT logging, hydration

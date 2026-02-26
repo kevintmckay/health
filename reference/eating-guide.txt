@@ -70,16 +70,17 @@ Protein snacks (if actually hungry):
 - Cottage cheese (1/2 cup)
 
 
-BEFORE BED (every night)
-------------------------
-1 cup cottage cheese (4% full-fat)
-= 28g protein, prevents overnight muscle breakdown, helps sleep
-
-
 KITCHEN CLOSES 8 PM
 -------------------
 Brush teeth after dinner if needed
-No food after 8 PM - only water or tea
+No food after 8 PM except cottage cheese
+
+
+BEFORE BED (10:30 PM)
+---------------------
+1 cup cottage cheese (4% full-fat)
+= 28g protein, prevents overnight muscle breakdown, helps sleep
+Only exception to kitchen closes rule
 
 
 ANTI-INFLAMMATORY EATING (CRITICAL FOR SCIATICA)
@@ -486,9 +487,8 @@ Stop overthinking. Start executing.
 
 RELATED FILES
 =============
-- eating-guide.txt (detailed version)
-- reference/protein-guide.txt (all protein sources)
-- reference/shopping-list.txt (complete weekly list)
-- reference/supplement-guide.txt (what pills to take)
+- protein-guide.txt (all protein sources)
+- shopping-list.txt (complete weekly list)
+- supplement-guide.txt (what pills to take)
 - daily-schedule.txt (full day structure)
-- reference/cbt-eating-guide.txt (emotional eating strategies)
+- cbt-eating-guide.txt (emotional eating strategies)
