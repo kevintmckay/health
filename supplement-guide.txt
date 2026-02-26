@@ -506,6 +506,6 @@ GET BLOODWORK to know what you actually need, don't guess.
 
 RELATED FILES
 =============
-- diet-plan.txt (anti-inflammatory eating)
+- eating-guide.txt (anti-inflammatory eating)
 - shopping-list.txt (where supplements are included)
 - sleep-plan.txt (why magnesium matters for sleep)

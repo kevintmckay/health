@@ -39,7 +39,7 @@ Protocol:
 - Anti-inflammatory foods (fatty fish, olive oil, colorful vegetables) help with pain
 - Track food for 5 days at the start to calibrate your portion sense
 
-See diet-plan.txt for meals, grocery list, and details.
+See eating-guide.txt for meals, grocery list, and details.
 
 Why it matters: Every pound lost reduces spinal compression. High protein
 prevents muscle loss during the deficit.

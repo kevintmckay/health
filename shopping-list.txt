@@ -354,7 +354,7 @@ After that: Just buy weekly perishables (~$75-110/week)
 RELATED FILES
 =============
 - protein-guide.txt (complete protein sources and amounts)
-- diet-plan.txt (meal structure and anti-inflammatory eating)
+- eating-guide.txt (meal structure and anti-inflammatory eating)
 - daily-schedule.txt (when to eat and how meals fit together)
 - core-exercises.txt (exercise program)
 - walking-plan.txt (12-week walking progression)

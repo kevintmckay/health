@@ -82,6 +82,51 @@ Brush teeth after dinner if needed
 No food after 8 PM - only water or tea
 
 
+ANTI-INFLAMMATORY EATING (CRITICAL FOR SCIATICA)
+=================================================
+
+With chronic sciatica and hip issues, what you eat affects your pain levels.
+
+PRIORITIZE DAILY:
+-----------------
+- Fatty fish 2-3x/week (salmon, sardines) - omega-3s directly reduce inflammation
+- Colorful vegetables (bell peppers, carrots, beets) - antioxidants
+- Extra virgin olive oil - primary cooking fat
+- Nuts (walnuts, almonds) - but watch portions (1/4 cup max)
+- Turmeric and ginger - add to lentil sauté, eggs, vegetables
+
+REDUCE/AVOID:
+-------------
+- Seed oils (canola, vegetable, soybean) - pro-inflammatory
+- Fried foods
+- Processed meats as daily staple
+- Excess sugar and refined carbs
+- Highly processed packaged snacks
+- Alcohol (disrupts sleep, increases next-day anxiety, adds empty calories)
+
+
+FIBER (PREVENT CONSTIPATION)
+=============================
+
+High protein (120-140g) + low fiber = constipation disaster
+
+TARGET: 25-30g fiber per day
+
+YOU GET FIBER FROM:
+-------------------
+- Beans/lentils (1 cup = 15g fiber) - eating daily ✓
+- Vegetables (4 cups = 10-12g fiber) - eating daily ✓
+- Berries, sweet potatoes, oats
+- Total: 25-30g easily if following the plan ✓
+
+IF CONSTIPATED DESPITE THIS:
+-----------------------------
+- Drink MORE water (100-120 oz critical with high protein)
+- Add fiber supplement (psyllium husk) 5-10g/day
+- Increase magnesium to 400mg before bed
+- More fiber = need even more water
+
+
 THE SIMPLE RULES
 ================
 
@@ -441,7 +486,7 @@ Stop overthinking. Start executing.
 
 RELATED FILES
 =============
-- diet-plan.txt (detailed version)
+- eating-guide.txt (detailed version)
 - protein-guide.txt (all protein sources)
 - shopping-list.txt (complete weekly list)
 - supplement-guide.txt (what pills to take)

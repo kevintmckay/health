@@ -345,6 +345,6 @@ Soy/testosterone:
 
 RELATED FILES
 =============
-- diet-plan.txt (overall diet structure)
+- eating-guide.txt (overall diet structure)
 - shopping-list.txt (weekly grocery list)
 - daily-schedule.txt (meal timing)
