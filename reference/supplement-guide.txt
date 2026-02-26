@@ -45,11 +45,29 @@ Read label: "EPA 1200mg + DHA 800mg" = 2000mg total
 Not total fish oil - look for combined EPA+DHA amount
 
 
+4. CALCIUM CITRATE
+------------------
+Dose: 500mg daily
+When: Morning with breakfast (alongside Vitamin D)
+Form: Calcium citrate (NOT carbonate - better absorbed, less constipation)
+Cost: $10-15 for 3-4 months
+Brands: Citracal, NOW Foods, Nature Made
+
+Why you need this:
+- Men 51-70 need 1000mg calcium/day
+- Your diet provides only 500-630mg/day
+- Age 57 + weight loss = bone loss risk
+- 500mg supplement fills the gap without over-supplementing
+
+Note: Take separately from iron/zinc supplements (if taking) - calcium blocks absorption
+
+
 DAILY SCHEDULE
 ==============
 
 MORNING (with breakfast):
 - Vitamin D3: 2000 IU
+- Calcium citrate: 500mg
 
 EVENING (1-2 hours before bed):
 - Magnesium glycinate: 200-400mg
@@ -57,7 +75,7 @@ EVENING (1-2 hours before bed):
 WITH DINNER (on non-fish days only):
 - Omega-3 fish oil: 2-3g EPA+DHA
 
-TOTAL COST: $45-75 upfront, lasts 2-3 months
+TOTAL COST: $55-90 upfront, lasts 2-3 months
 
 
 ADD LATER (OPTIONAL)
