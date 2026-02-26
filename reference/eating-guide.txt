@@ -139,6 +139,11 @@ PROTEIN (every meal):
 - Before bed: 1 cup cottage cheese
 - Target: 120-140g/day total
 
+Limits:
+- Eggs: 21-28 per week maximum (3-4 per day)
+- Tuna: 2-3 cans per week maximum (mercury)
+- Solid cheese: 3 oz/day maximum (not including cottage cheese)
+
 VEGETABLES (half your plate):
 ------------------------------
 - Lunch: 1.5 cups (kale in sauté + roasted veg on side)
@@ -195,12 +200,18 @@ Do all 4:
    - Hard boil 10-12 eggs
    - Peel when cool, store in container
 
-3. AIR FRYER (30 min, 3 batches):
+3. AIR FRYER (30 min, 3 batches @ 400°F):
    - Batch 1: Cabbage + onions (15 min)
    - Batch 2: Bell peppers (12 min)
    - Batch 3: Brussels sprouts (15 min)
    - Toss each with 1 tbsp olive oil + salt
    - Store in containers
+
+QUICK COOK TIMES (Air fryer 400°F):
+- Salmon: 10-12 min
+- Tofu cubes: 12-15 min
+- Burger patties (frozen): 8-10 min
+- Shrimp (frozen): 6-8 min
 
 4. RAW VEGETABLES (10 min):
    - Cut carrots into sticks → container with water
@@ -487,8 +498,7 @@ Stop overthinking. Start executing.
 
 RELATED FILES
 =============
-- protein-guide.txt (all protein sources)
-- shopping-list.txt (complete weekly list)
+- shopping-list.txt (weekly grocery list)
 - supplement-guide.txt (what pills to take)
 - daily-schedule.txt (full day structure)
 - cbt-eating-guide.txt (emotional eating strategies)
