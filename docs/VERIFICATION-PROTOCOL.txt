@@ -54,14 +54,24 @@ For supplement-guide.txt specifically:
 □ Omega-3 1-2g EPA+DHA? (NOT 2-3g - AF risk)
 □ AF warning present for omega-3?
 
-STEP 6: EXPLAIN BEFORE CHANGING
+STEP 6: QUANTITATIVE TARGET VERIFICATION
+For nutrition/supplement changes involving numbers:
+□ Current value: [STATE NUMBER]
+□ Science.txt recommendation: [STATE EVIDENCE-BASED TARGET]
+□ My target value: [STATE WHAT I PLAN TO CHANGE IT TO]
+□ If target ≠ science recommendation, explain scientific justification for difference
+□ If no scientific justification exists, USE THE SCIENCE RECOMMENDATION as target
+□ Default to evidence-based optimum, NOT ultra-conservative minimum
+□ State target number explicitly to user before making any edits
+
+STEP 7: EXPLAIN BEFORE CHANGING
 Before making any edit:
 □ Tell user what I plan to change
 □ Explain why (reference science.txt evidence)
 □ Show the specific edit I'll make
 □ Wait for user approval
 
-STEP 7: COMMIT MESSAGE ACCURACY
+STEP 8: COMMIT MESSAGE ACCURACY
 □ Commit message lists ALL changes made
 □ Commit message explains WHY (science basis)
 □ If fixing errors, commit says what was wrong
@@ -76,6 +86,7 @@ RED FLAGS - STOP AND ASK USER
 🚩 I'm adding things user didn't request
 🚩 Safety warning exists (like omega-3 >2g)
 🚩 Daily total falls below minimum target
+🚩 My target value is significantly lower than science.txt recommendation without scientific justification
 
 EXAMPLES OF PROTOCOL VIOLATIONS
 
@@ -90,6 +101,9 @@ EXAMPLES OF PROTOCOL VIOLATIONS
 
 ❌ BAD: I see science.txt says 1-2g omega-3 → I change menu to add exact amounts
 ✅ GOOD: I see science.txt says 1-2g omega-3 → User didn't ask for menu changes, so I don't make them
+
+❌ BAD: Science says 7-14 eggs/week safe → I reduce to 2/week to "be conservative"
+✅ GOOD: Science says 7-14 eggs/week safe → I target 14/week (upper limit of evidence-based recommendation)
 
 ACCOUNTABILITY
 
