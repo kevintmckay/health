@@ -244,6 +244,7 @@ Haddock: 70
 Beef eye of round: 73
 Chicken breast: 77
 Salmon: 77
+Beef top round: 78
 Swiss cheese: 97
 Ground turkey: 97
 Mozzarella: 100
