@@ -1,47 +1,41 @@
-PROTEIN (Breakfast: 30g min, Lunch: 35-40g, Dinner: 40-50g, Daily: 130-150g)
-Eggs: 3-4 (18-24g)
-Greek yogurt: 1 cup (23g)
-Cottage cheese: 1 cup (28g)
-String cheese: 1 piece (6g)
-Chicken: 5-6 oz (45-54g)
-Salmon: 6-8 oz (36-48g)
-Turkey/burger: 5-6 oz (45-54g)
-Tofu: 1/2-3/4 block (20-30g)
-Tuna: 1 can (20g)
-Feta: 1 oz (4g)
-Mozzarella (part-skim): 1 oz (7g)
-Swiss: 1 oz (8g)
+PROTEIN (Breakfast: 30g, Lunch: 35-40g, Dinner: 40-50g, Daily: 130-150g)
+Eggs: 3-4
+Greek yogurt: 1 cup
+Cottage cheese: 1 cup
+Chicken: 5-6 oz
+Salmon: 6-8 oz
+Turkey/burger: 5-6 oz
+Tofu: 1/2-3/4 block
+Tuna: 1 can
+Feta: 1 oz
+Mozzarella: 1 oz
+Swiss: 1 oz
 
 VEGETABLE
-Berries: 1/2 cup
-Kale: 2 cups raw
+Blueberries: 1/2 cup
+Kale: 2 cups
 Cabbage: 2 cups
 Broccoli: 2 cups
-Cauliflower: 2 cups
 Brussels sprouts: 2 cups
 Bell peppers: 1-2 cups
 Carrots (cooked): 2 cups
+Carrots (raw): unlimited
 Onions: 1 cup
+Garlic: 1 clove
 Tomatoes: 1 cup
-Spinach: 2 cups raw
+Spinach: 2 cups
+Celery: unlimited
+Stir-fry blend: 2 cups
 
 STARCH
 Lentils: 1 cup
 Black beans: 1 cup
 Chickpeas: 1 cup
 Sweet potato: 1 medium
-Rice: 1 cup cooked
-pasta: 1 cup cooked
 Oats: 1 cup cooked
-Bread: 2 slices
 
 FAT
 Olive oil: 1 tbsp
 Avocado oil: 1 tbsp
 Walnuts: 1/4 cup
 Almonds: 1/4 cup
-
-UNLIMITED
-Carrots (raw)
-Celery (raw)
-Cucumbers
