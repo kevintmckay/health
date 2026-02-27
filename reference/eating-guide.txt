@@ -8,14 +8,14 @@ For: Weight loss, anti-inflammatory eating, stress management
 YOUR DAILY EATING PATTERN
 ==========================
 
-BREAKFAST (20-25g protein)
---------------------------
+BREAKFAST (30g protein minimum)
+--------------------------------
 Pick ONE every day, eat same thing for 2 weeks:
 
-Option 1: 2 eggs + 1/2 cup Greek yogurt (22g)
-Option 2: 2 eggs + 1 oz swiss cheese (20g)
-Option 3: 1 cup cottage cheese + berries (28g)
-Option 4: 1 cup Greek yogurt + berries (20g)
+Option 1: 3 eggs + 1/2 cup Greek yogurt (30g)
+Option 2: 2 eggs + 1 cup Greek yogurt (32g)
+Option 3: 1 cup cottage cheese + 2 eggs (40g)
+Option 4: 1.5 cups Greek yogurt + berries (35g)
 
 No decisions. Same breakfast every day.
 
@@ -132,11 +132,14 @@ THE SIMPLE RULES
 
 PROTEIN (every meal):
 ---------------------
-- Breakfast: 20-25g (2 eggs OR 1 cup yogurt/cottage cheese)
+- Breakfast: 30g minimum (3 eggs + yogurt OR cottage cheese + eggs)
 - Lunch: 35-40g (lentils + protein + feta)
 - Dinner: 40-50g (4-5 oz protein + beans/lentils if using)
-- Snacks (if needed): 10-15g
-- Target: 120-140g/day total
+- Snacks (if needed): 10-20g
+- Target: 130-150g/day total
+
+Why 30g at breakfast: Research shows older adults (50+) need minimum 30g protein
+per meal to maximize muscle protein synthesis and prevent muscle loss during weight loss.
 
 Limits:
 - Eggs: 21-28 per week maximum (3-4 per day)
@@ -315,7 +318,7 @@ DAILY MEAL TIMING
 SAMPLE WEEK (NO DECISIONS)
 ===========================
 
-BREAKFAST (same every day): 2 eggs + 1/2 cup Greek yogurt = 22g protein
+BREAKFAST (same every day): 3 eggs + 1/2 cup Greek yogurt = 30g protein
 
 LUNCH (lentil sauté base + protein + feta):
 - Mon: 3 oz chicken = 39g total
@@ -327,25 +330,25 @@ LUNCH (lentil sauté base + protein + feta):
 - Sun: 3 oz chicken = 39g total
 
 DINNER:
-- Mon: 4 oz chicken + sweet potato + 2 cups veg = 30g protein
-- Tue: 5 oz salmon + 1 cup black beans + 2 cups veg = 45g protein
-- Wed: 4 oz chicken + 1 cup lentils + 2 cups veg = 46g protein
-- Thu: 1/2 block tofu + rice + 2 cups stir-fry veg = 20g protein
-- Fri: 5 oz salmon + sweet potato + 2 cups veg = 30g protein
-- Sat: Burger patty + 1 cup black beans + salad = 40g protein
-- Sun: 4 oz chicken + 1 cup lentils + 2 cups veg = 46g protein
+- Mon: 5 oz chicken + sweet potato + 2 cups veg = 36g protein
+- Tue: 6 oz salmon + 1 cup black beans + 2 cups veg = 51g protein
+- Wed: 5 oz chicken + 1 cup lentils + 2 cups veg = 52g protein
+- Thu: 3/4 block tofu + 1 cup rice + 2 cups stir-fry veg = 30g protein
+- Fri: 6 oz salmon + sweet potato + 2 cups veg = 36g protein
+- Sat: 5 oz burger + 1 cup black beans + salad = 46g protein
+- Sun: 5 oz chicken + 1 cup lentils + 2 cups veg = 52g protein
 
 DAILY TOTALS:
-- Mon: 22 + 39 + 30 = 91g (add snack if needed to reach 120g)
-- Tue: 22 + 42 + 45 = 109g (add snack if needed)
-- Wed: 22 + 39 + 46 = 107g (add snack if needed)
-- Thu: 22 + 42 + 20 = 84g (ADD SNACKS - too low)
-- Fri: 22 + 39 + 30 = 91g (add snack if needed)
-- Sat: 22 + 34 + 40 = 96g (add snack if needed)
-- Sun: 22 + 39 + 46 = 107g (add snack if needed)
+- Mon: 30 + 39 + 36 = 105g (add snack to reach 130g)
+- Tue: 30 + 42 + 51 = 123g (add snack to reach 130g)
+- Wed: 30 + 39 + 52 = 121g (add snack to reach 130g)
+- Thu: 30 + 42 + 30 = 102g (ADD SNACKS to reach 130g)
+- Fri: 30 + 39 + 36 = 105g (add snack to reach 130g)
+- Sat: 30 + 34 + 46 = 110g (add snack to reach 130g)
+- Sun: 30 + 39 + 52 = 121g (add snack to reach 130g)
 
-**NOTE:** Most days need 1-2 protein snacks to hit 120-140g target.
-Snack options: Greek yogurt (20g), 2 eggs (12g), string cheese (6g)
+**NOTE:** Most days need 1-2 protein snacks to hit 130-150g target.
+Snack options: 1/2 cup Greek yogurt (12g), 2 eggs (12g), 1/2 cup cottage cheese (14g)
 
 
 TROUBLESHOOTING

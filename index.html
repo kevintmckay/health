@@ -701,11 +701,11 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
 <script>
 // ---- Data ----
 const ITEMS = [
-  { id: 'daylight',    label: 'Morning daylight (10 min)', week: 1, details: [
-    'Within 30 min of waking, go outside',
-    'Resets circadian rhythm for better sleep',
-    'Overcast days still count — no sunglasses',
-  ]},
+  // { id: 'daylight',    label: 'Morning daylight (10 min)', week: 1, details: [
+  //   'Within 30 min of waking, go outside',
+  //   'Resets circadian rhythm for better sleep',
+  //   'Overcast days still count — no sunglasses',
+  // ]},
   { id: 'meditation',  label: 'Meditation',                week: 1, details: [
     'Start at 3 min, add 1 min/week to reach 10-15 min',
     'Before phone/email — just breathe and notice',
@@ -721,25 +721,31 @@ const ITEMS = [
     'Palm protein + half-plate veg + fist starch',
     'Fatty fish 2-3x/week',
     'Cut liquid calories (soda, juice, alcohol)',
-    'Ramp protein gradually to ~160g/day',
+    'Minimum 30g protein at breakfast, 130-150g/day total',
   ]},
-  { id: 'water',       label: 'Water intake (3-4 bottles)', week: 1, details: [
-    'Spread evenly throughout the day',
-    'One bottle first thing in the morning',
-    'Helps appetite regulation and energy',
+  // { id: 'water',       label: 'Water intake (100-120 oz)', week: 1, details: [
+  //   'Spread evenly throughout the day',
+  //   'One bottle first thing in the morning',
+  //   'Critical with high protein intake',
+  //   'Taper after 6 PM to prevent nighttime bathroom trips',
+  // ]},
+  { id: 'supplements', label: 'Supplements taken',       week: 1, details: [
+    'Morning: Vitamin D3 2000 IU + Calcium citrate 500mg',
+    'Evening: Magnesium glycinate 200-400mg (1-2h before bed)',
+    'Dinner: Omega-3 fish oil 2-3g (on non-fish days only)',
   ]},
-  { id: 'sleep',       label: 'Sleep schedule followed',   week: 1, details: [
-    'Pick wake time, work backward 8 hours',
-    'Same time 7 days/week — even weekends',
-    'Wind-down 30-60 min: dim lights, screens off',
-    'Bedroom: 65-68\u00b0F, blackout dark',
-  ]},
-  { id: 'foodmood',    label: 'Food/mood log entry',       week: 1, details: [
-    'Wk 1-2: Observe triggers, feelings, thoughts',
-    'Wk 3-4: Catch automatic thoughts ("deserve this")',
-    'Wk 5-6: Challenge — "true or just feels true?"',
-    'Wk 7-8: Urge surf — 15 min timer, walk or water',
-  ]},
+  // { id: 'sleep',       label: 'Sleep schedule followed',   week: 1, details: [
+  //   'Pick wake time, work backward 8 hours',
+  //   'Same time 7 days/week — even weekends',
+  //   'Wind-down 30-60 min: dim lights, screens off',
+  //   'Bedroom: 65-68\u00b0F, blackout dark',
+  // ]},
+  // { id: 'foodmood',    label: 'Food/mood log entry',       week: 1, details: [
+  //   'Wk 1-2: Observe triggers, feelings, thoughts',
+  //   'Wk 3-4: Catch automatic thoughts ("deserve this")',
+  //   'Wk 5-6: Challenge — "true or just feels true?"',
+  //   'Wk 7-8: Urge surf — 15 min timer, walk or water',
+  // ]},
   { id: 'kitchen',     label: 'Kitchen closes rule',       week: 2, details: [
     'Set a firm cutoff time each night',
     'Brush teeth afterward to signal "done"',
@@ -762,22 +768,22 @@ const ITEMS = [
     '2x/week — best modality for back pain',
     'Walk laps, gentle movements, water resistance',
   ]},
-  { id: 'cbt_log',     label: 'CBT: Food/mood log',        week: 1, cbt: 'log', details: [
-    'Log any eating outside planned meals',
-    'No judgment — you are collecting data',
-  ]},
-  { id: 'cbt_thought', label: 'CBT: Catch a thought',      week: 3, cbt: 'thought', details: [
-    'When urge hits, pause: "What thought just happened?"',
-    'Feelings are not facts',
-  ]},
-  { id: 'cbt_challenge', label: 'CBT: Challenge & reframe', week: 5, cbt: 'challenge', details: [
-    'Run the thought through the questions below',
-    '"I deserve to feel good tomorrow morning"',
-  ]},
-  { id: 'cbt_urgesurf', label: 'CBT: Urge surfing',        week: 7, cbt: 'urgesurf', details: [
-    'Urges peak and pass in 10-20 min',
-    'Every urge you ride out weakens the habit loop',
-  ]},
+  // { id: 'cbt_log',     label: 'CBT: Food/mood log',        week: 1, cbt: 'log', details: [
+  //   'Log any eating outside planned meals',
+  //   'No judgment — you are collecting data',
+  // ]},
+  // { id: 'cbt_thought', label: 'CBT: Catch a thought',      week: 3, cbt: 'thought', details: [
+  //   'When urge hits, pause: "What thought just happened?"',
+  //   'Feelings are not facts',
+  // ]},
+  // { id: 'cbt_challenge', label: 'CBT: Challenge & reframe', week: 5, cbt: 'challenge', details: [
+  //   'Run the thought through the questions below',
+  //   '"I deserve to feel good tomorrow morning"',
+  // ]},
+  // { id: 'cbt_urgesurf', label: 'CBT: Urge surfing',        week: 7, cbt: 'urgesurf', details: [
+  //   'Urges peak and pass in 10-20 min',
+  //   'Every urge you ride out weakens the habit loop',
+  // ]},
 ];
 
 function esc(s) {
@@ -1367,10 +1373,10 @@ function openDoc(title, file) {
   document.getElementById('docTitle').textContent = title;
   document.getElementById('docContent').textContent = 'Loading...';
   document.getElementById('docOverlay').classList.add('open');
-  fetch('personal/' + file)
+  fetch(file)
     .then(r => {
       if (r.ok) return r.text();
-      return fetch(file).then(r2 => r2.ok ? r2.text() : 'Could not load file.');
+      throw new Error('Could not load file.');
     })
     .then(text => {
       document.getElementById('docContent').textContent = text;
