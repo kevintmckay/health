@@ -236,26 +236,44 @@ Data source: USDA FoodData Central and verified nutrition databases
 
 Cholesterol per oz (28g) of protein (sorted lowest to highest):
 Tofu: 0 mg
+Tempeh: 0 mg
+Edamame: 0 mg
 Greek yogurt (nonfat): 18 mg
 Cottage cheese: 43 mg
+Beef top sirloin: 55 mg
+Cod: 61 mg
+Tilapia: 61 mg
+Haddock: 70 mg
+Beef eye of round: 73 mg
 Chicken breast: 77 mg
 Salmon: 77 mg
 Swiss cheese: 97 mg
 Ground turkey: 97 mg
 Mozzarella: 100 mg
+Turkey breast: 107 mg
 Feta: 178 mg
+Shrimp: 221 mg
 Eggs: 829 mg
 
 Base data (per 100g):
 Tofu: 0mg cholesterol, 13.5g protein
+Tempeh: 0mg cholesterol, 20.3g protein
+Edamame: 0mg cholesterol, 11.7g protein
 Greek yogurt: 5-6mg cholesterol, 9g protein
 Cottage cheese: 17mg cholesterol, 11g protein
+Beef top sirloin (cooked): 58mg cholesterol, 29.4g protein
+Cod (cooked): 50mg cholesterol, 22.8g protein
+Tilapia (cooked): 57mg cholesterol, 26.2g protein
+Haddock (cooked): 60mg cholesterol, 24g protein
+Beef eye of round (cooked): 78mg cholesterol, 30g protein
 Chicken breast (cooked): 85mg cholesterol, 31g protein
 Salmon: 55mg cholesterol, 20g protein
 Swiss cheese: 93mg cholesterol, 27g protein
 Ground turkey (cooked): 93mg cholesterol, 27g protein
 Mozzarella: 79mg cholesterol, 22g protein
+Turkey breast (cooked): 109mg cholesterol, 28.6g protein
 Feta: 89mg cholesterol, 14g protein
+Shrimp (cooked): 189mg cholesterol, 24g protein
 Eggs (whole): 372mg cholesterol, 12.56g protein
 
 CORRECTIONS MADE
