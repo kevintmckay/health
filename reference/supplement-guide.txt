@@ -33,7 +33,7 @@ Note: Reduces to 200mg if loose stools occur
 
 3. OMEGA-3 FISH OIL
 -------------------
-Dose: 2-3g EPA+DHA per day
+Dose: 1-2g EPA+DHA per day
 When: With dinner on non-fish days
 When to SKIP: If you ate salmon/sardines that day
 Form: Triglyceride form, third-party tested (IFOS, USP)
@@ -41,8 +41,12 @@ Cost: $20-40/month
 Brands: Nordic Naturals, Carlson, Viva Naturals
 Storage: REFRIGERATE after opening
 
-Read label: "EPA 1200mg + DHA 800mg" = 2000mg total
+Read label: "EPA 600mg + DHA 400mg" = 1000mg total (minimum dose)
+Or "EPA 800mg + DHA 600mg" = 1400mg total (standard dose)
 Not total fish oil - look for combined EPA+DHA amount
+
+WARNING: Doses >2g EPA+DHA linked to increased atrial fibrillation risk in research.
+Do not exceed 2g daily without physician guidance.
 
 
 4. CALCIUM CITRATE
@@ -73,7 +77,7 @@ EVENING (1-2 hours before bed):
 - Magnesium glycinate: 200-400mg
 
 WITH DINNER (on non-fish days only):
-- Omega-3 fish oil: 2-3g EPA+DHA
+- Omega-3 fish oil: 1-2g EPA+DHA
 
 TOTAL COST: $55-90 upfront, lasts 2-3 months
 
