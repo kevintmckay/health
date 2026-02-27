@@ -1,169 +1,99 @@
-FITNESS PLAN — SCIENCE-BACKED RECOVERY PROGRAM
-================================================
+PROFILE
+57yo male, 6ft, 235lbs
+Back/hip issues, sciatica from spinal impact/load bearing
+Deconditioned, gets winded quickly
+Created: 2026-02-24
 
-Profile: 57-year-old male, 6ft, 235lbs
-Conditions: Back and hip issues, sciatica triggered by spinal impact/load bearing
-Starting fitness: Deconditioned, gets winded quickly
-Date created: 2026-02-24
+WALKING
+Most studied intervention for deconditioned adults, first-line sciatica treatment
+Promotes disc nutrition, reduces nerve irritation
+Start: whatever duration manageable without triggering sciatica (even 10 min)
+Add 2-5 min/week
+Target: 30-45 min most days
+Flat, even surfaces to start
+See walking-plan.txt for 12-week progression
 
+CALORIC DEFICIT VIA PROTEIN-PRIORITIZED DIET
+6ft/235lbs: losing 20-30lbs dramatically reduces spinal load and sciatica
+130-150g protein/day (minimum 30g/meal for muscle preservation)
+Ramp gradually over 2-3 weeks
+High protein preserves muscle, highest satiety/calorie
+Adults 50+ need 30g minimum/meal to maximize muscle protein synthesis
+Cut liquid calories (soda, juice, alcohol)
+Protein + veg every meal + modest portions
+Anti-inflammatory foods (fatty fish, olive oil, colorful veg) help pain
+Track food 5 days at start to calibrate portions
+See eating-guide.txt
 
-1. WALKING — DAILY, PROGRESSIVE
---------------------------------
-The single most studied intervention for deconditioned adults and first-line
-treatment for sciatica in clinical guidelines. Walking promotes disc nutrition
-and reduces nerve irritation.
+AQUATIC EXERCISE (POOL/SWIMMING)
+Highest-value for sciatica, water removes ~90% body weight from spine
+Pool walking, water aerobics, or swimming
+2x/week, 20-30 min
+Progress duration and intensity as tolerated
+Comparable fitness/strength gains to land-based exercise without flares
 
-Protocol:
-- Start with whatever duration you can manage without triggering sciatica (even 10 min)
-- Add 2-5 minutes per week
-- Target: 30-45 minutes most days
-- Flat, even surfaces preferred to start
+CORE STABILITY + HIP STRENGTH + RESISTANCE
+Core (McGill Big 3): curl-up, side plank, bird-dog
+  Builds endurance around spine, protects against sciatica
+Hip: glute bridges, clamshells, hip flexor stretch, piriformis stretch
+  Addresses hip pain and sciatica contributors
+  Hip flexor tightness and glute weakness common drivers
+Resistance: wall push-ups, chair squats, resistance band rows
+  Preserves muscle during weight loss (critical at 57)
+  Without resistance training, significant weight lost will be muscle
+See core-exercises.txt
 
-See walking-plan.txt for the full 12-week progression.
-
-Why it matters: Consistently shown to reduce all-cause mortality more than any
-other single behavior change.
-
-
-2. CALORIC DEFICIT VIA PROTEIN-PRIORITIZED DIET
--------------------------------------------------
-At 6ft/235lbs, losing 20-30lbs will dramatically reduce spinal load and
-sciatica flares.
-
-Protocol:
-- Aim for 130-150g protein per day (minimum 30g per meal for muscle preservation)
-- Ramp protein gradually over 2-3 weeks (don't jump to 150g on day one)
-- High protein preserves muscle during weight loss and has the highest satiety per calorie
-- Research shows adults 50+ need 30g minimum per meal to maximize muscle protein synthesis
-- Cut liquid calories (soda, juice, alcohol) — this alone often creates a meaningful deficit
-- Protein + vegetables at every meal + modest portions
-- Anti-inflammatory foods (fatty fish, olive oil, colorful vegetables) help with pain
-- Track food for 5 days at the start to calibrate your portion sense
-
-See eating-guide.txt for meals, grocery list, and details.
-
-Why it matters: Every pound lost reduces spinal compression. High protein
-prevents muscle loss during the deficit.
-
-
-3. AQUATIC EXERCISE (POOL WALKING / SWIMMING)
-----------------------------------------------
-Highest-value exercise modality for sciatica. Water removes ~90% of body
-weight load from the spine.
-
-Protocol:
-- Pool walking, water aerobics, or swimming
-- Start with 2x per week, 20-30 minutes
-- Progress duration and intensity as tolerated
-
-Why it matters: Research shows aquatic exercise improves cardiovascular fitness,
-reduces pain, and builds strength in people with chronic low back pain at rates
-comparable to land-based exercise — without the flares.
-
-
-4. CORE STABILITY + HIP STRENGTH + RESISTANCE TRAINING
---------------------------------------------------------
-Three categories of exercise, all spine-safe:
-
-Core stability (McGill Big 3):
-  - Curl-up, side plank, bird-dog
-  - Builds muscular endurance around the spine that protects against sciatica
-
-Hip exercises:
-  - Glute bridges, clamshells, hip flexor stretch, piriformis stretch
-  - Directly addresses hip pain and common sciatica contributors
-  - Hip flexor tightness and glute weakness are among the most common
-    drivers of both conditions
-
-Basic resistance training:
-  - Wall push-ups, chair-assisted squats, resistance band rows
-  - Preserves muscle mass during weight loss (critical at 57 — sarcopenia
-    is already a concern at this age)
-  - Without resistance training, a significant portion of weight lost will
-    be muscle, leaving you lighter but still weak
-
-See core-exercises.txt for all exercise descriptions, form cues, and progressions.
-
-Why it matters: Addresses your spine, your hips, and age-related muscle loss
-in one combined program. 15-20 minutes per session.
-
-
-5. CONSISTENT SLEEP (7-8 HOURS)
----------------------------------
-Heavily supported by data. Poor sleep independently:
-- Increases pain sensitivity (lowers sciatica threshold)
-- Impairs recovery from exercise
-- Drives hunger hormones (ghrelin up, leptin down), sabotaging weight loss
-- Reduces exercise motivation and capacity
-
-Protocol:
-- Target 7-8 hours per night
-- Keep consistent bed and wake times (consistency matters more than total hours)
-- Limit screens 30-60 min before bed
-
-See sleep-plan.txt for the full protocol, bedroom setup, and troubleshooting.
-
-Why it matters: Fixing sleep amplifies the returns on every other intervention.
-
+CONSISTENT SLEEP (7-8 HOURS)
+Poor sleep:
+  Increases pain sensitivity (lowers sciatica threshold)
+  Impairs recovery
+  Drives hunger hormones (ghrelin up, leptin down), sabotages weight loss
+  Reduces exercise motivation and capacity
+Target 7-8 hours/night
+Consistent bed and wake times (consistency > total hours)
+Limit screens 30-60 min before bed
+See sleep-plan.txt
 
 IMPLEMENTATION SCHEDULE
-========================
-Week 1       Walking + diet changes + sleep schedule + meditation + food/mood log
-Week 2       Continue above, add kitchen-closes rule
-Week 3       Add core + hip exercises (Routine A, 3x/week)
-Week 4       Add resistance exercises (Routine B, 2x/week)
-Week 5+      Add pool/aquatic exercise (2x/week)
-Week 6+      Full routine, CBT techniques fully active
-
-See daily-schedule.txt for how this all fits into a single day.
-
+Week 1: Walking + diet + sleep + meditation + food/mood log
+Week 2: Continue, add kitchen-closes rule
+Week 3: Add core + hip (Routine A, 3x/week)
+Week 4: Add resistance (Routine B, 2x/week)
+Week 5+: Add pool/aquatic (2x/week)
+Week 6+: Full routine, CBT fully active
+See daily-schedule.txt
 
 LONG-TERM VIEW
-================
-This plan covers roughly the first 12 weeks. Here is what comes after:
-
 Months 3-6:
-- Walking is now a habit at 30-45 min, 5-6x/week
-- Progress exercise variations (counter push-ups, deeper squats, heavier bands)
-- Weight loss continues; reassess calorie needs if progress stalls
-- Consider adding light dumbbell work if spine and hips tolerate it
-- CBT skills are becoming automatic; emotional eating episodes decreasing
+  Walking habit 30-45 min, 5-6x/week
+  Progress exercise variations (counter push-ups, deeper squats, heavier bands)
+  Weight loss continues, reassess calories if stalls
+  Consider light dumbbell work if spine/hips tolerate
+  CBT skills automatic, emotional eating decreasing
 
 Months 6-12:
-- Explore new activities your lighter, stronger body can handle
-  (hiking, cycling, gym machines, yoga)
-- Resistance training can progress to a simple full gym program if desired
-- Reassess with your doctor — bloodwork, sciatica status, medication review
-- Weight should be approaching goal range; shift to maintenance calories
-- The habits are now your lifestyle, not a "program"
+  Explore new activities (hiking, cycling, gym, yoga)
+  Resistance training progress to full gym program if desired
+  Reassess with doctor: bloodwork, sciatica status, medication review
+  Weight approaching goal, shift to maintenance calories
+  Habits are lifestyle, not "program"
 
 Beyond 12 months:
-- Maintain what you've built
-- The goal shifts from weight loss to strength, mobility, and quality of life
-- Annual checkups with your doctor to monitor progress
-
+  Maintain what built
+  Goal shifts to strength, mobility, quality of life
+  Annual checkups with doctor
 
 FLARE-UP PROTOCOL
-==================
-Sciatica flares happen. A flare is not a reason to quit — it's a reason
-to shift gears temporarily. See flare-up-protocol.txt for the full plan.
-
+See flare-up-protocol.txt
 Quick reference:
-- KEEP doing: meditation, diet, sleep schedule, CBT logging, hydration
-- MODIFY: walking (shorten or pause), exercises (stop if they aggravate)
-- RESUME: gradually, dropping back 1-2 weeks in your progression
-- SEE A DOCTOR if: flare lasts longer than 2 weeks, numbness/weakness
-  in foot or leg, or bladder/bowel issues (emergency)
-
+  KEEP: meditation, diet, sleep, CBT logging, hydration
+  MODIFY: walking (shorten/pause), exercises (stop if aggravate)
+  RESUME: gradually, drop back 1-2 weeks in progression
+  SEE DOCTOR: flare >2 weeks, numbness/weakness in foot/leg, bladder/bowel issues (emergency)
 
 IMPORTANT NOTES
-================
-- Get medical clearance before starting, especially given sciatica.
-- Consider 2-3 physical therapy sessions to identify your specific sciatica
-  triggers and get personalized modifications.
-- Listen to your body — sharp or radiating pain is a stop signal, not something
-  to push through.
-- Track your weight weekly (same time, same conditions) rather than daily to
-  see the real trend.
-- Tell one person what you're doing. Accountability improves adherence
-  significantly. See daily-schedule.txt for options.
+Get medical clearance before starting
+Consider 2-3 PT sessions for specific sciatica triggers and personalized modifications
+Sharp/radiating pain = stop signal, not push through
+Track weight weekly (same time, same conditions)
+Tell one person, accountability improves adherence
