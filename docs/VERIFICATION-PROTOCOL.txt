@@ -43,7 +43,7 @@ For menu.txt specifically:
 □ Every day 130-150g protein? (science.txt target)
 □ Every day 25-30g fiber? (science.txt target)
 □ Fatty fish 2-3x/week? (science.txt anti-inflammatory)
-□ Eggs ≤28/week? (eating-guide.txt limit)
+□ Eggs 7-14/week? (science.txt AHA guideline for healthy adults)
 □ Solid cheese ≤21 oz/week? (eating-guide.txt limit)
 □ Vegetables 3-4 cups/day? (eating-guide.txt target)
 

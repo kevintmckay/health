@@ -181,6 +181,43 @@ Some RCTs show benefit, others minimal effect
 More research needed
 Frontiers in Medicine, 2025
 
+EGG CONSUMPTION
+Recommendation: 7-14 eggs/week for healthy adults; 4 eggs/week for those with heart disease or high cholesterol
+Evidence: MODERATE
+
+American Heart Association Guidelines (2019)
+Healthy adults: up to 1 whole egg daily (7/week)
+Healthy older adults with normal cholesterol: up to 2 eggs daily (14/week)
+People with heart disease or high cholesterol: limit to 4 yolks/week
+Cleveland Clinic
+
+Umbrella Review (January 2025)
+Higher egg intake weakly associated with increased LDL cholesterol (7.39 mg/dL) and total cholesterol (9.12 mg/dL)
+Also associated with improved HDL cholesterol (1.37 mg/dL)
+No evidence of association with cardiovascular outcomes or all-cause mortality
+"No sufficient quality of evidence to discourage egg consumption"
+Very low quality of evidence overall
+ScienceDirect: S0939-4753(25)00003-1
+
+Randomized Controlled Trial (2025)
+Daily consumption of 2 whole eggs (14/week) for 8 weeks in adults with hyperlipidemia
+Following DASH diet, egg consumption did not negatively affect endothelial function or LDL cholesterol
+Journal of the American Nutrition Association
+
+Observational Study (2025)
+Consuming eggs 1-6 times/week associated with 29% lower risk of CVD-related death in healthy older adults
+Even among participants with dyslipidemia: 27% lower risk of CVD-related death
+Monash University study
+
+Meta-Analysis Findings
+Meta-analysis of 28 RCTs: high egg consumption increased total cholesterol, LDL, and HDL, but not LDL-to-HDL or TC-to-HDL ratios
+Meta-analysis of 8 RCTs: >4 eggs/week vs <4 eggs/week showed no association with blood lipid profile or blood pressure differences
+
+Conflicting Evidence Note
+Earlier systematic reviews found greater egg consumption associated with increased CVD mortality risk (HR 1.09 per 50g daily)
+Recent evidence more permissive, especially when eggs consumed as part of healthy dietary pattern
+Substantial heterogeneity and generally low-quality evidence across studies
+
 EVIDENCE QUALITY SUMMARY
 
 STRONG (multiple RCTs and meta-analyses)
@@ -192,11 +229,13 @@ Omega-3: 1-2g EPA+DHA daily (AHA guideline, AF risk >2g)
 MODERATE (some RCTs support, mixed or limited evidence)
 Magnesium glycinate: 200-400mg for sleep/muscle (benefits in low-baseline individuals)
 Anti-inflammatory diet: Fatty fish, olive oil, vegetables for sciatica (some RCTs positive, 2025 meta-analysis inconclusive)
+Egg consumption: 7-14/week for healthy adults (AHA 2019, heterogeneous evidence, recent RCTs permissive)
 
 CORRECTIONS MADE
 Omega-3 reduced from 2-3g to 1-2g (AF risk >2g)
 Added atrial fibrillation risk warning
 Updated protein targets from 120-140g to 130-150g
+Added egg consumption limits: 7-14/week for healthy adults (AHA 2019)
 
 SOURCES
 PubMed Central (PMC)
