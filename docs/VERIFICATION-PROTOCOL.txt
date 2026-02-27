@@ -1,0 +1,103 @@
+VERIFICATION PROTOCOL FOR ALL HEALTH DOCUMENT CHANGES
+======================================================
+
+This is health-critical. Mistakes can harm the user.
+Follow this protocol BEFORE making ANY changes to health files.
+
+FILES COVERED
+eating-guide.txt, menu.txt, supplement-guide.txt, science.txt, quick-reference.txt, shopping-list.txt
+
+MANDATORY PROTOCOL - NO EXCEPTIONS
+
+STEP 1: UNDERSTAND THE REQUEST
+□ What file(s) am I being asked to change?
+□ What EXACTLY did the user request?
+□ Did they ask me to change X, or just review/check X?
+□ Am I inferring things they didn't ask for?
+
+STEP 2: CHECK SCIENCE.TXT FIRST
+□ Does science.txt support this change?
+□ What is the evidence quality? (STRONG/MODERATE/WEAK)
+□ Are there safety warnings? (like omega-3 AF risk)
+□ Does this align with RCT data or is it assumption?
+
+STEP 3: CHECK FOR CONTRADICTIONS
+Before changing ANY file, verify:
+□ Does this contradict eating-guide.txt?
+□ Does this contradict science.txt?
+□ Does this contradict supplement-guide.txt?
+□ Are all related files consistent?
+
+STEP 4: VERIFY MATH
+If the change involves numbers:
+□ Manually add up all protein totals
+□ Manually add up all fiber totals
+□ Verify all daily totals meet minimum targets
+□ Verify weekly totals (eggs, cheese, etc.)
+□ Check that labeled totals match actual totals
+
+STEP 5: CHECK COMPLETENESS
+For menu.txt specifically:
+□ Every breakfast ≥30g protein? (science.txt requirement)
+□ Every breakfast has fiber/fruit? (balanced meal)
+□ Every day 130-150g protein? (science.txt target)
+□ Every day 25-30g fiber? (science.txt target)
+□ Fatty fish 2-3x/week? (science.txt anti-inflammatory)
+□ Eggs ≤28/week? (eating-guide.txt limit)
+□ Solid cheese ≤21 oz/week? (eating-guide.txt limit)
+□ Vegetables 3-4 cups/day? (eating-guide.txt target)
+
+For supplement-guide.txt specifically:
+□ Vitamin D3 2000 IU? (science.txt STRONG)
+□ Calcium citrate 500mg? (science.txt STRONG)
+□ Magnesium glycinate 200-400mg? (science.txt MODERATE)
+□ Omega-3 1-2g EPA+DHA? (NOT 2-3g - AF risk)
+□ AF warning present for omega-3?
+
+STEP 6: EXPLAIN BEFORE CHANGING
+Before making any edit:
+□ Tell user what I plan to change
+□ Explain why (reference science.txt evidence)
+□ Show the specific edit I'll make
+□ Wait for user approval
+
+STEP 7: COMMIT MESSAGE ACCURACY
+□ Commit message lists ALL changes made
+□ Commit message explains WHY (science basis)
+□ If fixing errors, commit says what was wrong
+
+RED FLAGS - STOP AND ASK USER
+
+🚩 User asked to "check" but I want to change something
+🚩 I'm making assumptions not backed by science.txt
+🚩 Math doesn't add up
+🚩 Change contradicts another file
+🚩 Evidence quality is WEAK or not listed
+🚩 I'm adding things user didn't request
+🚩 Safety warning exists (like omega-3 >2g)
+🚩 Daily total falls below minimum target
+
+EXAMPLES OF PROTOCOL VIOLATIONS
+
+❌ BAD: User asks "check menu.txt" → I add olive oil without asking
+✅ GOOD: User asks "check menu.txt" → I report findings, ask if they want changes
+
+❌ BAD: I notice breakfasts have no fiber → I add blueberries silently
+✅ GOOD: I notice breakfasts have no fiber → I report issue, propose fix, wait for approval
+
+❌ BAD: Menu shows "141g protein" → I assume it's correct
+✅ GOOD: Menu shows "141g protein" → I manually add up (34+43+12+32+14=135) → Report error
+
+❌ BAD: I see science.txt says 1-2g omega-3 → I change menu to add exact amounts
+✅ GOOD: I see science.txt says 1-2g omega-3 → User didn't ask for menu changes, so I don't make them
+
+ACCOUNTABILITY
+
+If I make an error:
+□ I acknowledge it immediately when user points it out
+□ I explain what I did wrong and which protocol step I skipped
+□ I fix it correctly using this protocol
+□ I commit to following protocol more carefully
+
+This is health-critical. The user's trust depends on accuracy.
+When in doubt, ASK rather than ASSUME.
