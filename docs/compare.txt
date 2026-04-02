@@ -1,0 +1,253 @@
+DIET PLAN vs. MEDITERRANEAN DIET: SCIENTIFIC EVIDENCE COMPARISON
+Updated: 2026-04-01
+
+================================================================
+1. CARDIOVASCULAR DISEASE
+================================================================
+
+Mediterranean (STRONG evidence):
+- PREDIMED RCT (n=7,447): 28-30% CVD risk reduction
+  HR 0.70 (95% CI: 0.54-0.92) for EVOO arm
+  Stopped early for benefit
+  Source: Estruch et al., NEJM 2013/2018
+
+Current plan (MODERATE evidence):
+- Meta-analysis 14 cohorts (n=525,047): OR 0.87 (0.70-1.07), trend not significant
+- German Nutrition Society 2025: protein intake NOT associated with CHD/stroke
+- Yogurt consumption: RR 0.89 (0.81-0.98) for CVD mortality
+
+Verdict: Mediterranean has stronger CVD evidence. Shared elements (EVOO, fish,
+legumes, vegetables) likely confer similar benefit.
+
+================================================================
+2. ALL-CAUSE MORTALITY
+================================================================
+
+Mediterranean (MODERATE evidence):
+- 29 cohorts (n=1,676,901): HR 0.90 (0.89-0.91) per 2-point adherence
+  Source: Sofi et al., 2019
+- Exclusively observational. No RCT shows significant mortality reduction.
+
+Current plan (MODERATE-STRONG evidence):
+- BMJ 2020 (n=715,128, 113,039 deaths): total protein HR 0.94 (0.89-0.99)
+  Plant protein HR 0.92 (0.87-0.97)
+- Each 3% energy substituted animal->plant protein: HR 0.88 (0.85-0.91)
+- Plant-to-animal ratio >0.50 showed greatest benefit (AJCN 2024)
+
+Current plan ratio: ~30-40% plant protein. Evidence supports pushing toward 50%+.
+
+Verdict: Similar evidence quality. Increasing plant protein ratio would improve
+mortality outcomes.
+
+================================================================
+3. INFLAMMATION (CRP, IL-6)
+================================================================
+
+Mediterranean (MODERATE-HIGH evidence):
+- 33 RCTs (n=3,476): significant reductions in hs-CRP and IL-6
+  IL-6 mean difference -1.07 pg/mL
+  Source: Nutrition Reviews 2025
+- EVOO-supplemented MedDiet reduced both markers
+- No significant effect on TNF-alpha
+
+Current plan: anti-inflammatory framework (fatty fish 2-3x/week, EVOO, turmeric,
+ginger, colorful vegetables, no seed oils/fried/processed) maps directly to the
+interventions tested in these RCTs.
+
+Verdict: Equivalent. Same mechanisms implemented.
+
+================================================================
+4. TYPE 2 DIABETES PREVENTION
+================================================================
+
+Mediterranean (MODERATE evidence):
+- 25 studies (n=991,878): HR 0.92 (0.90-0.94) per 2-point adherence
+- In existing T2D: HbA1c reduced by 0.307%
+
+Current plan (MODERATE-STRONG evidence):
+- Yogurt and T2D: RR 0.73 (0.70-0.76) -- 27% risk reduction
+- Yogurt and metabolic syndrome: RR 0.80 (0.74-0.87) -- 20% reduction
+- High protein improves glycemic control via satiety and reduced postprandial spikes
+
+Verdict: Current plan may have advantage due to heavy yogurt intake carrying
+strong, replicated T2D risk reduction exceeding general Mediterranean association.
+
+================================================================
+5. COGNITIVE DECLINE / DEMENTIA
+================================================================
+
+Mediterranean (MODERATE evidence):
+- 23 studies: cognitive impairment HR 0.82 (0.75-0.89)
+  Alzheimer's HR 0.70 (0.60-0.82)
+  Source: GeroScience 2025
+
+Current plan: no direct evidence for high-protein diets and cognition.
+Shared protective components (fish, EVOO, vegetables, nuts) are present.
+Absence of whole grains may matter -- B vitamins and folate support cognition.
+Legume intake partially compensates.
+
+Verdict: Mediterranean has direct evidence. Current plan shares key components
+but lacks whole-grain contribution.
+
+================================================================
+6. CANCER RISK
+================================================================
+
+Mediterranean (LOW-MODERATE evidence):
+- 117 studies (n=3.2 million): cancer mortality RR 0.87 (0.82-0.92)
+  Colorectal RR 0.83 (0.76-0.90). All observational.
+  Source: Morze et al., European Journal of Nutrition 2020
+
+Current plan risk factors:
+- Red meat 2x/week: JAMA Internal Medicine (n=29,682, 19 years)
+  Per 2 servings/week unprocessed: all-cause HR 1.03 (1.01-1.05)
+  Absolute risk increase <1% over 30 years
+  At ~20g/day average, well below colorectal cancer threshold (~50g/day)
+- Eggs 1-2/day: dose-response meta-analysis (n=2.7 million)
+  All-cause mortality risk elevated above ~1.5 eggs/day
+  Cancer mortality RR 1.13 (1.06-1.20) per egg/day
+  Geographic confounding significant (dietary context matters)
+
+Verdict: Mediterranean shows modest cancer protection. Current plan adds small
+absolute risk from red meat/eggs. Limit eggs to 1/day.
+
+================================================================
+7. WEIGHT MANAGEMENT AND MUSCLE PRESERVATION
+================================================================
+
+Mediterranean (MODERATE evidence):
+- 16 RCTs (n=3,436): weight loss -1.75 kg vs controls
+  With exercise: -4.01 kg
+  Not designed as weight-loss diet. Typical protein ~60-80g/day.
+
+Current plan (STRONG evidence):
+- 49 studies: significantly decreased hunger, desire to eat, prospective consumption
+- Fat-free mass preservation during weight loss: consistently demonstrated
+- Morton et al.: muscle protein synthesis threshold at 1.62 g/kg/day
+  Current plan at 1.4-1.6 g/kg approaches optimal ceiling
+- CRITICAL: BMC Geriatrics 2025 -- protein WITHOUT exercise had NO significant
+  effect on lean body mass in older adults. Must combine with resistance training.
+
+Verdict: Current plan substantially superior for weight management and muscle
+preservation. Main advantage over standard Mediterranean.
+
+================================================================
+8. KIDNEY FUNCTION
+================================================================
+
+Current plan protein level (STRONG evidence -- no harm in healthy adults):
+- 28 RCTs (n=1,358): no adverse GFR effect. Source: Devries et al., 2018
+- 6 studies (n=148,051): higher protein = 18% LOWER CKD risk (RR 0.82, 0.71-0.94)
+- CAVEAT: in impaired kidney function, >1.4 g/kg/day = faster eGFR decline
+  Monitor with regular bloodwork
+
+================================================================
+9. GUT MICROBIOME
+================================================================
+
+Mediterranean (MODERATE evidence):
+- NU-AGE RCT (n=612, 1 year): increased beneficial taxa (F. prausnitzii,
+  Akkermansia, Bifidobacterium), increased SCFA production
+  Source: Ghosh et al., Gut 2020
+
+Current plan: likely similar effects from shared elements. Daily legumes and
+yogurt are independently favorable for microbiome diversity.
+
+================================================================
+10. WHOLE GRAINS -- BIGGEST GAP IN CURRENT PLAN
+================================================================
+
+Evidence (HIGH certainty per GRADE):
+- Meta-analysis 24 articles (n=1.6 million):
+  Per 30g/day whole grains: CVD RR 0.92 (0.88-0.96)
+  All-cause mortality RR 0.94 (0.92-0.97)
+- RCTs confirm whole grains improve total cholesterol, LDL, HbA1c, CRP
+
+Current plan eliminates grains entirely. High legume intake compensates for
+fiber (29-33g/day) but specific cereal fiber CVD associations may not be
+fully replicated by legume fiber. No RCT compares grain-free + high-legume
+vs. grain-inclusive diets.
+
+================================================================
+SUMMARY SCORECARD
+================================================================
+
+Outcome              Mediterranean    Current Plan     Notes
+-----------          -------------    ------------     -----
+CVD prevention       Strong (30%)     Moderate         PREDIMED unmatched
+All-cause mortality  Moderate (10%)   Moderate (6%)    Increase plant protein
+Inflammation         Moderate-High    Equivalent       Same mechanisms
+Type 2 diabetes      Moderate (8%)    Stronger         Yogurt = 27% reduction
+Cognitive decline    Moderate (18-30%)Weaker           Missing grains
+Cancer risk          Low-Mod (13%)    Slightly higher  Small absolute difference
+Weight/muscle        Moderate         Strong           Main advantage
+Kidney               Not studied      Safe (healthy)   Monitor eGFR
+Gut microbiome       Moderate         Likely similar   Legumes + yogurt help
+
+================================================================
+EVIDENCE-BASED RECOMMENDATIONS
+================================================================
+
+1. ADD WHOLE GRAINS
+   Evidence for mortality and CVD benefit is high-certainty. Even 1-2
+   servings/day of oats, barley, or bulgur captures most benefit.
+   Oats are on approved starch list but absent from weekly menus.
+
+2. INCREASE PLANT-TO-ANIMAL PROTEIN RATIO TOWARD 50%+
+   Substituting 3% calories animal->plant = 12% lower all-cause mortality.
+   Add tofu/tempeh/edamame to more meals.
+
+3. LIMIT EGGS TO 1/DAY
+   Threshold data: risk elevation above 1.5 eggs/day. On 2-egg breakfast
+   days, avoid eggs at other meals.
+
+4. EXPAND FRUIT VARIETY
+   Add citrus (flavanones) beyond blueberries and apples. Evidence is
+   low quality but cost is zero.
+
+5. COTTAGE CHEESE IS NOT YOGURT
+   Not fermented the same way, lacks live cultures. Does not carry same
+   metabolic benefits as Greek yogurt. Favor yogurt when choosing.
+
+================================================================
+KEY SOURCES
+================================================================
+
+CVD:
+- Estruch et al., NEJM 2018 (PREDIMED)
+- German Nutrition Society Umbrella Review, 2025
+
+Mortality:
+- Sofi et al., 2019 (n=1,676,901)
+- Naghshi et al., BMJ 2020 (n=715,128)
+- AJCN 2024 plant-to-animal protein ratio
+
+Inflammation:
+- Nutrition Reviews 2025 (33 RCTs, n=3,476)
+
+Diabetes:
+- Advances in Nutrition 2025 (n=991,878)
+- Fermented dairy meta-analysis 2022
+
+Cognition:
+- GeroScience 2025 (23 studies)
+
+Cancer:
+- Morze et al., European Journal of Nutrition 2020 (n=3.2 million)
+- JAMA Internal Medicine 2020 (red meat, n=29,682)
+- Frontiers in Nutrition 2022 (eggs, n=2.7 million)
+
+Weight/Muscle:
+- Esposito et al., 2011 (16 RCTs)
+- Morton et al. (protein threshold meta-analysis)
+- BMC Geriatrics 2025 (protein without exercise)
+
+Kidney:
+- Devries et al., Journal of Nutrition 2018 (28 RCTs)
+- Li et al., Frontiers in Nutrition 2024 (n=148,051)
+
+Whole Grains:
+- Dose-response meta-analysis 2023 (n=1.6 million)
+
+Gut Microbiome:
+- Ghosh et al., Gut 2020 (NU-AGE RCT, n=612)
