@@ -40,12 +40,16 @@ STEP 5: CHECK COMPLETENESS
 For menu.txt specifically:
 □ Every breakfast ≥30g protein? (science.txt requirement)
 □ Every breakfast has fiber/fruit? (balanced meal)
-□ Every day 130-150g protein? (science.txt target)
-□ Every day 25-30g fiber? (science.txt target)
-□ Fatty fish 2-3x/week? (science.txt anti-inflammatory)
-□ Eggs 7-14/week? (science.txt AHA guideline for healthy adults)
-□ Solid cheese ≤21 oz/week? (eating-guide.txt limit)
-□ Vegetables 3-4 cups/day? (eating-guide.txt target)
+□ Every day ~126-138g protein? (menu.txt Mediterranean target)
+□ Every day 34-38g fiber? (menu.txt Mediterranean target)
+□ Fatty fish 2-3x/week? (eating-guide.txt Mediterranean principle)
+□ Eggs max 1/day, ~4-5/week? (eating-guide.txt Mediterranean limit)
+□ Feta only, small amounts per serving? (eating-guide.txt fermented dairy)
+□ Whole grains daily? (eating-guide.txt oats, bulgur, barley)
+□ Legumes 3-4x/week minimum? (eating-guide.txt Mediterranean principle)
+□ EVOO 2-3 tbsp/day? (eating-guide.txt primary fat)
+□ Red meat no more than 2x/month? (eating-guide.txt Mediterranean limit)
+□ Vegetables 4+ cups/day? (menu.txt Mediterranean target)
 
 For supplement-guide.txt specifically:
 □ Vitamin D3 2000 IU? (science.txt STRONG)

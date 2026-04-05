@@ -2,7 +2,7 @@ MORNING
 Wake up (same time daily, including weekends)
 Get outside 10 min daylight (resets circadian rhythm)
 Meditation (3-15 min depending on week)
-Breakfast (protein-first, at table)
+Breakfast (balanced Mediterranean meal, at table)
 Morning walk (per walking plan)
 
 MIDDAY
@@ -22,11 +22,11 @@ Weeks 5+: Full toolkit:
   4. If emotional: 15-min timer, do alternative (walk, water, call, task)
   5. If physical: planned protein snack
   6. Log it
-Snack if needed: Greek yogurt, protein shake, string cheese, eggs
+Snack if needed: Greek yogurt, nuts, fruit, hummus with vegetables
 
 EVENING
 Dinner (protein + veg + starch, at table)
-After dinner: pool exercise 2x/week if available, light activity ok
+After dinner: light activity ok (easy walk, stretching)
 Kitchen closes (eg 8 PM, brush teeth)
 If urge hits: tea, water, 4-7-8 breathing
 
@@ -57,28 +57,28 @@ SAMPLE DAY (WEEK 6+)
 3:00 PM Urge check-in, water, RAIN/4-7-8 if needed
 3:30 PM Snack if physically hungry
 6:00 PM Dinner
-6:30 PM Easy walk or pool (2x/week)
+6:30 PM Easy walk or light activity
 8:00 PM Kitchen closes, brush teeth
 9:30 PM Wind-down, lights dim, screens off
 9:45 PM CBT journal (2 min), read
 10:30 PM Lights out
 
 WEEKLY VIEW (WEEK 6+)
-         Walk  Routine A  Routine B  Pool  Meditation  CBT Log
-Mon      x     x                           x           x
-Tue      x                x                x           x
-Wed      x     x                           x           x
-Thu      x                x          x     x           x
-Fri      x     x                           x           x
-Sat      x                x          x     x           x
-Sun      rest  rest       rest             x           x
+         Walk  Routine A  Routine B  Meditation  CBT Log
+Mon      x     x                    x           x
+Tue      x                x         x           x
+Wed      x     x                    x           x
+Thu      x                x         x           x
+Fri      x     x                    x           x
+Sat      x                x         x           x
+Sun      rest  rest       rest      x           x
 
 PHASED ROLLOUT
 Week 1: Wake/sleep times, daylight 10 min, walk 4 days, diet plan, meditation 3 min, food/mood log
 Week 2: Continue, kitchen closes rule starts
 Week 3: Add Routine A 3x/week, walk 5 days, CBT catch thoughts, meditation 5 min + body scan
 Week 4: Add Routine B 2x/week, walk 5 days, meditation 7 min
-Week 5: Add pool 2x/week, CBT challenge/reframe thoughts, meditation 10 min
+Week 5: CBT challenge/reframe thoughts, meditation 10 min
 Week 6+: Full routine, CBT urge surfing, continue progressing
 
 ACCOUNTABILITY

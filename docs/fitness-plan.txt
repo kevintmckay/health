@@ -13,15 +13,16 @@ Target: 30-45 min most days
 Flat, even surfaces to start
 See walking-plan.txt for 12-week progression
 
-CALORIC DEFICIT VIA PROTEIN-PRIORITIZED DIET
+MEDITERRANEAN DIET FOR WEIGHT LOSS
 6ft/235lbs: losing 20-30lbs dramatically reduces spinal load and sciatica
-130-150g protein/day (minimum 30g/meal for muscle preservation)
-Ramp gradually over 2-3 weeks
-High protein preserves muscle, highest satiety/calorie
-Adults 50+ need 30g minimum/meal to maximize muscle protein synthesis
+~130g protein/day (minimum 28g/meal for muscle preservation)
+Mediterranean framework: fatty fish 2-3x/week, EVOO as primary fat, whole grains daily
+Legumes 3-4x/week, colorful vegetables, fruit 2-3 servings/day
+Fresh herbs liberally, fermented dairy (yogurt, small amounts feta)
+Adults 50+ need 28-30g minimum/meal to maximize muscle protein synthesis
+Red meat no more than 2x/month, poultry 2-3x/week
 Cut liquid calories (soda, juice, alcohol)
-Protein + veg every meal + modest portions
-Anti-inflammatory foods (fatty fish, olive oil, colorful veg) help pain
+Anti-inflammatory foods reduce pain and support recovery
 Track food 5 days at start to calibrate portions
 See eating-guide.txt
 
@@ -51,7 +52,7 @@ Week 1: Walking + diet + sleep + meditation + food/mood log
 Week 2: Continue, add kitchen-closes rule
 Week 3: Add core + hip (Routine A, 3x/week)
 Week 4: Add resistance (Routine B, 2x/week)
-Week 5+: Add pool/aquatic (2x/week)
+Week 5+: Full routine, continue progressing
 Week 6+: Full routine, CBT fully active
 See daily-schedule.txt
 
