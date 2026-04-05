@@ -218,6 +218,29 @@ Earlier systematic reviews found greater egg consumption associated with increas
 Recent evidence more permissive, especially when eggs consumed as part of healthy dietary pattern
 Substantial heterogeneity and generally low-quality evidence across studies
 
+ANCIENT WHEAT - EINKORN
+Recommendation: Einkorn (Triticum monococcum) as primary grain over emmer or kamut
+Evidence: MODERATE
+
+Oldest Cultivated Wheat
+Diploid genome (2 sets of chromosomes) -- least modified from wild ancestors
+Originated in Fertile Crescent ~10,000 years ago
+Staple of ancient Mediterranean civilizations
+
+Nutritional Advantages
+Higher in protein, carotenoids (lutein), and antioxidants than modern wheat
+Brandolini et al., 2015: Lower glycemic response compared to modern wheat
+
+Gluten Structure
+Pizzuti et al., 2006 (Scandinavian Journal of Gastroenterology): Different gluten structure, may be less immunotoxic
+NOT safe for celiacs
+
+Comparison to Emmer and Kamut
+Emmer (T. dicoccum): Tetraploid, good fiber/minerals, less distinctive nutritionally
+Kamut/Khorasan (T. turanicum): Tetraploid, branded name, higher selenium
+Sofi et al., 2013 (European Journal of Clinical Nutrition): Khorasan reduced inflammatory markers vs modern wheat -- but comparison was against modern wheat, not other ancient grains
+Einkorn is most ancestral and closest to what was eaten in the ancient Mediterranean
+
 EVIDENCE QUALITY SUMMARY
 
 STRONG (multiple RCTs and meta-analyses)
