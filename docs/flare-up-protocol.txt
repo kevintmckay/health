@@ -5,18 +5,18 @@ MODERATE: Radiating pain into glute/leg, walking uncomfortable, sitting long mak
 SEVERE: Sharp constant radiating pain, difficulty walking/standing, numbness/tingling in foot, significant limitation
 
 MILD FLARE
-Keep: Walking (reduce 5-10 min, flat ground), McGill Big 3 (check form), hip stretches (piriformis may help), resistance exercises (skip chair squats if aggravate), meditation, diet, sleep, CBT logging
+Keep: Walking (reduce 5-10 min, flat ground), McGill Big 3 (check form), hip stretches (piriformis may help), resistance exercises (skip chair squats if aggravate), meditation, diet
 Add: Standing back extensions 3-4x/day (hands on hips, lean back, hold 5 sec, repeat 5x), ice 15 min after activity, extra piriformis/hip flexor stretching 2-3x/day
 Duration: 2-5 days usually
 
 MODERATE FLARE
-Keep: Walking (shorten to 5-10 min or gentle house movement), McGill Big 3 (only if no increase radiating pain), piriformis/hip flexor stretch (gently), glute bridges (often tolerable), meditation (pain increases anxiety increases pain), diet, sleep, CBT logging
+Keep: Walking (shorten to 5-10 min or gentle house movement), McGill Big 3 (only if no increase radiating pain), piriformis/hip flexor stretch (gently), glute bridges (often tolerable), meditation, diet
 Pause: Resistance exercises (wall push-ups, chair squats, band rows), any exercise increasing radiating pain
 Add: Standing back extensions 5 reps, 5-6x/day, alternate ice (15 min) and heat (15 min) on lower back, change positions frequently (don't sit >20-30 min), walk gently 2-3 min every 30 min sitting, OTC anti-inflammatory per label if tolerated
 Duration: 1-2 weeks usually, see doctor if not improving after 1 week
 
 SEVERE FLARE
-Keep: Meditation (need it most), diet (don't let pain excuse emotional eating, use CBT tools), sleep schedule (pain disrupts sleep, hygiene matters more), CBT logging ("pain is trigger for eating"), hydration
+Keep: Meditation, diet, hydration
 Pause: Walking beyond basic daily movement, all exercises except gentle piriformis if tolerated
 Add: Standing back extensions if tolerated (try cautiously), lying on back with calves on chair (90-90 position) 10-15 min several x/day to unload spine, position changes every 20 min, OTC anti-inflammatory per label
 See doctor if: Pain not improving after 2 weeks, numbness/weakness in foot/lower leg, difficulty controlling bladder/bowels (EMERGENCY - ER immediately, cauda equina syndrome), pain so severe can't sleep despite medication
@@ -50,14 +50,13 @@ Consistent McGill Big 3 (core endurance protects spine)
 Strong glutes (glute bridges/clamshells take load off spine)
 Flexible hip flexors and piriformis (reduces nerve compression)
 Lower body weight (less spinal compression)
-Good sleep (reduces pain sensitivity)
 Movement throughout day (don't sit hours without moving)
 Managing stress/anxiety (tension increases muscle guarding around spine, compresses nerves)
 
 WHAT NOT TO DO
 Don't stop everything and lie in bed for days (prolonged rest makes sciatica worse after first 24-48 hours)
 Don't push through sharp radiating pain
-Don't abandon diet ("nothing matters anyway" = all-or-nothing thinking trap)
+Don't abandon diet
 Don't restart entire plan from scratch (haven't lost progress, just need brief rebuild)
 Don't try to stretch or massage pain away aggressively
 Don't ignore severe symptoms (numbness, weakness, bladder issues)

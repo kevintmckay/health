@@ -276,113 +276,6 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
   font-weight: 700;
   margin-right: 6px;
 }
-/* CBT forms */
-.cbt-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.cbt-form label {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--text);
-}
-.cbt-form textarea, .cbt-form select, .cbt-form input[type="text"] {
-  width: 100%;
-  padding: 8px 10px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font-size: 0.85rem;
-  font-family: inherit;
-  background: rgba(255,255,255,0.6);
-  color: var(--text);
-  resize: vertical;
-}
-.cbt-form textarea { min-height: 50px; }
-.cbt-form textarea:focus, .cbt-form select:focus, .cbt-form input:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: -1px;
-}
-.cbt-form .field-row {
-  display: flex;
-  gap: 8px;
-}
-.cbt-form .field-row > div { flex: 1; }
-.cbt-form .pill-group {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-.cbt-form .pill {
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 0.78rem;
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,0.5);
-  cursor: pointer;
-  color: var(--text2);
-  transition: all 0.15s;
-}
-.cbt-form .pill.active {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
-}
-.cbt-form .urge-scale {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-}
-.cbt-form .urge-num {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-.cbt-form .urge-num.active {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
-}
-.cbt-form .cbt-saved {
-  font-size: 0.75rem;
-  color: var(--green);
-  font-weight: 600;
-}
-.cbt-form .cbt-entries {
-  margin-top: 6px;
-  border-top: 1px solid var(--border);
-  padding-top: 6px;
-}
-.cbt-form .cbt-entry {
-  font-size: 0.78rem;
-  color: var(--text2);
-  padding: 4px 0;
-  border-bottom: 1px dashed var(--border);
-  line-height: 1.4;
-}
-.cbt-form .cbt-entry:last-child { border-bottom: none; }
-.cbt-form .cbt-entry strong { color: var(--text); }
-.cbt-form .add-entry-btn {
-  padding: 6px 14px;
-  border: 1px dashed var(--accent);
-  border-radius: 6px;
-  background: none;
-  color: var(--accent);
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  width: 100%;
-}
-.cbt-form .add-entry-btn:hover { background: var(--check-bg); }
-
 .check-expand {
   margin-left: auto;
   font-size: 0.75rem;
@@ -631,10 +524,9 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
     <div class="details-wrap">
       <button class="details-btn" onclick="toggleDetails(event)">Details</button>
       <div class="details-dropdown" id="detailsDropdown">
-        <a onclick="openDoc('Eating Guide','docs/eating-guide.txt')">Eating Guide</a>
-        <a onclick="openDoc('7-Day Menu','docs/menu.txt')">7-Day Menu</a>
-        <a onclick="openDoc('Shopping List','docs/shopping-list.txt')">Shopping List</a>
         <a onclick="openDoc('Quick Reference','docs/quick-reference.txt')">Quick Reference</a>
+        <a onclick="openDoc('Mix &amp; Match','docs/mix-and-match.txt')">Mix &amp; Match</a>
+        <a onclick="openDoc('Shopping List','docs/shopping-list.txt')">Shopping List</a>
       </div>
     </div>
   </div>
@@ -693,11 +585,6 @@ h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
 <script>
 // ---- Data ----
 const ITEMS = [
-  // { id: 'daylight',    label: 'Morning daylight (10 min)', week: 1, details: [
-  //   'Within 30 min of waking, go outside',
-  //   'Resets circadian rhythm for better sleep',
-  //   'Overcast days still count — no sunglasses',
-  // ]},
   { id: 'meditation',  label: 'Meditation',                week: 1, details: [
     'Start at 3 min, add 1 min/week to reach 10-15 min',
     'Before phone/email — just breathe and notice',
@@ -710,29 +597,11 @@ const ITEMS = [
     'Fist protein + half-plate veg + fist starch',
     'Fatty fish 2-3x/week (salmon, cod)',
   ]},
-  // { id: 'water',       label: 'Water intake (100-120 oz)', week: 1, details: [
-  //   'Spread evenly throughout the day',
-  //   'One bottle first thing in the morning',
-  //   'Critical with high protein intake',
-  //   'Taper after 6 PM to prevent nighttime bathroom trips',
-  // ]},
   { id: 'supplements', label: 'Supplements',              week: 1, details: [
     'Morning: Vitamin D3 2000 IU + Calcium citrate 500mg',
     'Dinner: Omega-3 fish oil 1-2g EPA+DHA non-fish days',
     'Evening: Magnesium glycinate 200-400mg before bed',
   ]},
-  // { id: 'sleep',       label: 'Sleep schedule followed',   week: 1, details: [
-  //   'Pick wake time, work backward 8 hours',
-  //   'Same time 7 days/week — even weekends',
-  //   'Wind-down 30-60 min: dim lights, screens off',
-  //   'Bedroom: 65-68\u00b0F, blackout dark',
-  // ]},
-  // { id: 'foodmood',    label: 'Food/mood log entry',       week: 1, details: [
-  //   'Wk 1-2: Observe triggers, feelings, thoughts',
-  //   'Wk 3-4: Catch automatic thoughts ("deserve this")',
-  //   'Wk 5-6: Challenge — "true or just feels true?"',
-  //   'Wk 7-8: Urge surf — 15 min timer, walk or water',
-  // ]},
   { id: 'routineA',    label: 'Routine A (core + hips)',   week: 3, details: [
     'McGill Big 3: curl-up, side plank, bird-dog',
     'Plus hip flexor + piriformis stretches',
@@ -745,22 +614,6 @@ const ITEMS = [
     'Preserves muscle during weight loss',
     'Mediterranean protein (~130g) + resistance = best results',
   ]},
-  // { id: 'cbt_log',     label: 'CBT: Food/mood log',        week: 1, cbt: 'log', details: [
-  //   'Log any eating outside planned meals',
-  //   'No judgment — you are collecting data',
-  // ]},
-  // { id: 'cbt_thought', label: 'CBT: Catch a thought',      week: 3, cbt: 'thought', details: [
-  //   'When urge hits, pause: "What thought just happened?"',
-  //   'Feelings are not facts',
-  // ]},
-  // { id: 'cbt_challenge', label: 'CBT: Challenge & reframe', week: 5, cbt: 'challenge', details: [
-  //   'Run the thought through the questions below',
-  //   '"I deserve to feel good tomorrow morning"',
-  // ]},
-  // { id: 'cbt_urgesurf', label: 'CBT: Urge surfing',        week: 7, cbt: 'urgesurf', details: [
-  //   'Urges peak and pass in 10-20 min',
-  //   'Every urge you ride out weakens the habit loop',
-  // ]},
 ];
 
 function esc(s) {
@@ -942,7 +795,6 @@ function render() {
         </div>
         <div class="check-details${isExpanded ? ' open' : ''}">
           <ul>${item.details.map(d => '<li>' + d + '</li>').join('')}</ul>
-          ${item.cbt && isExpanded ? renderCbtForm(item.cbt, dk) : ''}
         </div>`;
     }
     html += '</div>';
@@ -963,204 +815,6 @@ function toggle(dk, id) {
 function toggleExpand(id) {
   if (expandedItems.has(id)) expandedItems.delete(id);
   else expandedItems.add(id);
-  render();
-}
-
-// ---- CBT Data ----
-function getCbtEntries(dk, type) {
-  try {
-    return JSON.parse(localStorage.getItem(userKey('cbt-' + type + '-' + dk))) || [];
-  } catch { return []; }
-}
-
-function saveCbtEntries(dk, type, entries) {
-  localStorage.setItem(userKey('cbt-' + type + '-' + dk), JSON.stringify(entries));
-}
-
-function renderCbtForm(type, dk) {
-  const entries = getCbtEntries(dk, type);
-  let html = '<div class="cbt-form" onclick="event.stopPropagation()">';
-
-  if (type === 'log') {
-    html += `
-      <label>What did you eat?</label>
-      <input type="text" id="cbt-log-what" placeholder="e.g. chips, cookies...">
-      <div class="field-row">
-        <div>
-          <label>Hunger type</label>
-          <div class="pill-group" id="cbt-log-hunger">
-            <div class="pill" onclick="pillSelect('cbt-log-hunger',this)">Physical</div>
-            <div class="pill" onclick="pillSelect('cbt-log-hunger',this)">Emotional</div>
-            <div class="pill" onclick="pillSelect('cbt-log-hunger',this)">Unsure</div>
-          </div>
-        </div>
-      </div>
-      <label>Feeling before</label>
-      <div class="pill-group" id="cbt-log-feeling">
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Anxious</div>
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Bored</div>
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Stressed</div>
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Tired</div>
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Lonely</div>
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">In pain</div>
-        <div class="pill" onclick="pillSelect('cbt-log-feeling',this)">Frustrated</div>
-      </div>
-      <label>Trigger (what happened in last 30 min?)</label>
-      <input type="text" id="cbt-log-trigger" placeholder="e.g. work stress, argument, nothing specific...">
-      <button class="add-entry-btn" onclick="saveCbtLog('${dk}')">+ Save entry</button>`;
-  }
-
-  if (type === 'thought') {
-    html += `
-      <label>The automatic thought</label>
-      <textarea id="cbt-thought-text" placeholder='e.g. "I deserve this after today"'></textarea>
-      <label>What were you feeling?</label>
-      <div class="pill-group" id="cbt-thought-feeling">
-        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Anxious</div>
-        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Frustrated</div>
-        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Sad</div>
-        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Bored</div>
-        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Angry</div>
-        <div class="pill" onclick="pillSelect('cbt-thought-feeling',this)">Overwhelmed</div>
-      </div>
-      <button class="add-entry-btn" onclick="saveCbtThought('${dk}')">+ Save thought</button>`;
-  }
-
-  if (type === 'challenge') {
-    html += `
-      <label>The thought to challenge</label>
-      <textarea id="cbt-ch-thought" placeholder='e.g. "I can\'t handle this without eating"'></textarea>
-      <label>Is this true, or does it just feel true?</label>
-      <textarea id="cbt-ch-true" placeholder="Be honest with yourself..."></textarea>
-      <label>What would you tell a friend?</label>
-      <textarea id="cbt-ch-friend" placeholder="What advice would you give?"></textarea>
-      <label>Reframe</label>
-      <textarea id="cbt-ch-reframe" placeholder='e.g. "I\'m anxious. Food won\'t fix it."'></textarea>
-      <button class="add-entry-btn" onclick="saveCbtChallenge('${dk}')">+ Save reframe</button>`;
-  }
-
-  if (type === 'urgesurf') {
-    html += `
-      <label>Urge intensity (before)</label>
-      <div class="urge-scale" id="cbt-urge-before">
-        ${[1,2,3,4,5,6,7,8,9,10].map(n => `<div class="urge-num" onclick="urgeSelect('cbt-urge-before',${n},this)">${n}</div>`).join('')}
-      </div>
-      <label>What did you do instead?</label>
-      <div class="pill-group" id="cbt-urge-activity">
-        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Walked</div>
-        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Water</div>
-        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Breathing</div>
-        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Called someone</div>
-        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Did a task</div>
-        <div class="pill" onclick="pillSelect('cbt-urge-activity',this)">Waited it out</div>
-      </div>
-      <label>Urge intensity (after 15 min)</label>
-      <div class="urge-scale" id="cbt-urge-after">
-        ${[1,2,3,4,5,6,7,8,9,10].map(n => `<div class="urge-num" onclick="urgeSelect('cbt-urge-after',${n},this)">${n}</div>`).join('')}
-      </div>
-      <button class="add-entry-btn" onclick="saveCbtUrge('${dk}')">+ Save entry</button>`;
-  }
-
-  // Show previous entries
-  if (entries.length > 0) {
-    html += '<div class="cbt-entries">';
-    for (const e of entries) {
-      html += '<div class="cbt-entry">' + formatCbtEntry(type, e) + '</div>';
-    }
-    html += '</div>';
-  }
-
-  html += '</div>';
-  return html;
-}
-
-function formatCbtEntry(type, e) {
-  if (type === 'log') {
-    return `<strong>${esc(e.what || '?')}</strong> — ${esc(e.hunger || '?')} hunger, feeling ${esc(e.feeling || '?')}${e.trigger ? ', trigger: ' + esc(e.trigger) : ''}`;
-  }
-  if (type === 'thought') {
-    return `"<strong>${esc(e.thought || '?')}</strong>" — feeling ${esc(e.feeling || '?')}`;
-  }
-  if (type === 'challenge') {
-    return `"<strong>${esc(e.thought || '?')}</strong>" &rarr; "${esc(e.reframe || '?')}"`;
-  }
-  if (type === 'urgesurf') {
-    return `Urge: <strong>${esc(e.before || '?')}</strong> &rarr; <strong>${esc(e.after || '?')}</strong> — ${esc(e.activity || '?')}`;
-  }
-  return '';
-}
-
-function pillSelect(groupId, el) {
-  el.classList.toggle('active');
-}
-
-function urgeSelect(groupId, val, el) {
-  const parent = document.getElementById(groupId);
-  parent.querySelectorAll('.urge-num').forEach(n => n.classList.remove('active'));
-  el.classList.add('active');
-  el.dataset.value = val;
-}
-
-function getActivePills(groupId) {
-  const pills = document.querySelectorAll('#' + groupId + ' .pill.active');
-  return Array.from(pills).map(p => p.textContent).join(', ');
-}
-
-function getUrgeValue(groupId) {
-  const active = document.querySelector('#' + groupId + ' .urge-num.active');
-  return active ? active.textContent : '';
-}
-
-function saveCbtLog(dk) {
-  const what = document.getElementById('cbt-log-what').value.trim();
-  if (!what) return;
-  const entries = getCbtEntries(dk, 'log');
-  entries.push({
-    what,
-    hunger: getActivePills('cbt-log-hunger') || 'not set',
-    feeling: getActivePills('cbt-log-feeling') || 'not set',
-    trigger: document.getElementById('cbt-log-trigger').value.trim(),
-  });
-  saveCbtEntries(dk, 'log', entries);
-  render();
-}
-
-function saveCbtThought(dk) {
-  const thought = document.getElementById('cbt-thought-text').value.trim();
-  if (!thought) return;
-  const entries = getCbtEntries(dk, 'thought');
-  entries.push({
-    thought,
-    feeling: getActivePills('cbt-thought-feeling') || 'not set',
-  });
-  saveCbtEntries(dk, 'thought', entries);
-  render();
-}
-
-function saveCbtChallenge(dk) {
-  const thought = document.getElementById('cbt-ch-thought').value.trim();
-  if (!thought) return;
-  const entries = getCbtEntries(dk, 'challenge');
-  entries.push({
-    thought,
-    true_or_feel: document.getElementById('cbt-ch-true').value.trim(),
-    friend: document.getElementById('cbt-ch-friend').value.trim(),
-    reframe: document.getElementById('cbt-ch-reframe').value.trim(),
-  });
-  saveCbtEntries(dk, 'challenge', entries);
-  render();
-}
-
-function saveCbtUrge(dk) {
-  const before = getUrgeValue('cbt-urge-before');
-  if (!before) return;
-  const entries = getCbtEntries(dk, 'urgesurf');
-  entries.push({
-    before,
-    after: getUrgeValue('cbt-urge-after') || '?',
-    activity: getActivePills('cbt-urge-activity') || 'not set',
-  });
-  saveCbtEntries(dk, 'urgesurf', entries);
   render();
 }
 

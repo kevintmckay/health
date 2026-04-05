@@ -1,10 +1,22 @@
-PROTEIN (Breakfast: 28-32g, Lunch: 35-43g, Dinner: 25-36g, Daily: 126-138g)
+RULES
+Fatty fish 2-3x/week (salmon primary, cod for variety)
+Poultry 2-3x/week max
+Red meat no more than 2x/month
+Eggs max 1/day
+EVOO as primary fat (2-3 tbsp/day)
+Whole grains daily
+Legumes 3-4x/week minimum
+Fruit 2-3 servings daily (vary types)
+Colorful vegetables daily (5+ types)
+Fresh herbs liberally
+Avoid: seed oils, fried foods, processed meats, excess sugar, alcohol
+
+PROTEIN (Breakfast: 26-31g, Lunch: 19-43g, Dinner: 26-36g, Daily: 115-134g)
 Eggs: max 1 per day
 Greek yogurt: 1 cup (20g)
 Cottage cheese: 1 cup (28g)
 Chicken: 3-4 oz (2-3x/week only)
 Salmon: 5 oz (30g)
-Salmon and cod are primary fish (no sardines/mackerel)
 Cod: 5 oz (25g)
 Tofu: 1/2-3/4 block
 Feta: 1 oz per serving
@@ -14,7 +26,8 @@ WHOLE GRAINS
 Oats: 1/2 cup dry (daily at breakfast)
 Bulgur: 1 cup cooked
 Barley: 1 cup cooked
-Whole wheat bread: 1 slice
+Einkorn bread: 1-2 slices (homemade, berries + salt + yeast)
+Whole wheat pasta: 2 oz dry / 1 cup cooked
 
 FRUIT (2-3 servings daily, vary types)
 Blueberries: 1/2 cup
@@ -64,14 +77,3 @@ Turmeric
 Ginger
 Lemon juice
 
-KEY DIFFERENCES FROM CURRENT PLAN
-- Whole grains added daily (oats at breakfast, bulgur/barley at dinner)
-- Fruit variety expanded (citrus, figs, grapes, melon, berries)
-- Red meat eliminated (was 2x/week burgers)
-- Eggs reduced to max 1/day (was up to 2 breakfast + 2 lunch)
-- Fish variety expanded (sardines, mackerel, cod added)
-- Poultry reduced to 2-3x/week (was nearly daily)
-- Herbs emphasized (oregano, basil, rosemary, thyme, parsley)
-- EVOO increased to 2-3 tbsp/day
-- Plant protein ratio increased toward 50%
-- Protein slightly lower (~130g avg vs ~143g avg)

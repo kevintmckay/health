@@ -65,14 +65,6 @@ Not meditation, rapid calm-down for when anxiety spikes
 Activates parasympathetic nervous system, slows heart rate, lowers adrenaline
 Use before opening fridge
 
-EATING-SPECIFIC MEDITATION: RAIN
-Use when emotional eating urge hits
-R - Recognize: "I'm having an urge to eat"
-A - Allow: "This urge is here, I don't have to fight or feed it"
-I - Investigate: "Where do I feel this in body? What emotion underneath? What actually needing?"
-N - Non-identification: "This urge is not me, it's something passing through, I can watch without becoming it"
-Takes 2-3 min, can do anywhere
-
 COMMON OBSTACLES
 
 "I can't stop my thoughts"
@@ -89,7 +81,6 @@ Same time, same place, every day
 
 "I fell asleep"
 Sit upright instead of lying down
-Sign need more sleep (see sleep plan)
 
 "I missed day/week/month"
 Sit 3 min today, you're back
@@ -104,9 +95,7 @@ Don't need app, timer on phone works
 Guided sessions can help first few weeks if silence too hard
 
 HOW THIS CONNECTS
-Meditation + CBT = handles anxiety and emotional eating
 Walking = burns stress hormones, improves mood
-Sleep = reduces baseline anxiety and pain sensitivity
-Diet = simple structure so food decisions not emotional
-Core exercises = reduces pain, reduces stress, reduces emotional eating
+Diet = simple structure reduces decision fatigue
+Core exercises = reduces pain, reduces stress
 All reinforce each other

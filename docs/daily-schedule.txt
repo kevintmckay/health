@@ -1,89 +1,51 @@
 MORNING
-Wake up (same time daily, including weekends)
-Get outside 10 min daylight (resets circadian rhythm)
 Meditation (3-15 min depending on week)
 Breakfast (balanced Mediterranean meal, at table)
 Morning walk (per walking plan)
 
 MIDDAY
-Lunch (protein + veg + small starch, last caffeine before this)
+Lunch (protein + veg + starch)
 Exercise session (scheduled days):
   Routine A: McGill Big 3 + hip exercises (15-20 min)
   Routine B: Resistance exercises (10-15 min)
 Stretches at end when muscles warm
 
-AFTERNOON (HIGHEST RISK 2-5 PM)
-Weeks 1-2: Just notice, log in food/mood journal
-Weeks 3-4: Catch the thought, write it down
-Weeks 5+: Full toolkit:
-  1. Pause, don't go to kitchen
-  2. RAIN check (Recognize, Allow, Investigate, Non-identify)
-  3. Ask: physical hunger or emotional?
-  4. If emotional: 15-min timer, do alternative (walk, water, call, task)
-  5. If physical: planned protein snack
-  6. Log it
+AFTERNOON
 Snack if needed: Greek yogurt, nuts, fruit, hummus with vegetables
 
 EVENING
 Dinner (protein + veg + starch, at table)
 After dinner: light activity ok (easy walk, stretching)
-Kitchen closes (eg 8 PM, brush teeth)
-If urge hits: tea, water, 4-7-8 breathing
 
-BEFORE BED
-Wind-down 30-60 min before bedtime:
-  Dim lights, screens off/night mode
-  No news/work email/stress
-15-30 min before bed:
-  Light stretching, read book in chair, warm shower
-Lights out (same time nightly)
-  Phone face down/another room
-  Pillow under knees (back) or between knees (side)
-  If not asleep in 20 min, get up, sit in dim light until drowsy
-
-CBT CHECK-IN (2 MIN DAILY)
-Did I eat outside planned meals? Y/N
-If yes: What feeling? What thought? What trigger?
-What went well today?
-
-SAMPLE DAY (WEEK 6+)
-6:30 AM Wake, outside for daylight
+SAMPLE DAY
+6:30 AM Wake
 6:45 AM Meditation (10 min)
 7:00 AM Breakfast
 7:30 AM Walk (30 min)
 8:15 AM Shower, start day
-12:00 PM Lunch (last caffeine)
+12:00 PM Lunch
 12:45 PM Core/hip or resistance (15-20 min)
-3:00 PM Urge check-in, water, RAIN/4-7-8 if needed
-3:30 PM Snack if physically hungry
+3:30 PM Snack if hungry
 6:00 PM Dinner
 6:30 PM Easy walk or light activity
-8:00 PM Kitchen closes, brush teeth
-9:30 PM Wind-down, lights dim, screens off
-9:45 PM CBT journal (2 min), read
-10:30 PM Lights out
 
-WEEKLY VIEW (WEEK 6+)
-         Walk  Routine A  Routine B  Meditation  CBT Log
-Mon      x     x                    x           x
-Tue      x                x         x           x
-Wed      x     x                    x           x
-Thu      x                x         x           x
-Fri      x     x                    x           x
-Sat      x                x         x           x
-Sun      rest  rest       rest      x           x
+WEEKLY VIEW
+         Walk  Routine A  Routine B  Meditation
+Mon      x     x                    x
+Tue      x                x         x
+Wed      x     x                    x
+Thu      x                x         x
+Fri      x     x                    x
+Sat      x                x         x
+Sun      rest  rest       rest      x
 
 PHASED ROLLOUT
-Week 1: Wake/sleep times, daylight 10 min, walk 4 days, diet plan, meditation 3 min, food/mood log
-Week 2: Continue, kitchen closes rule starts
-Week 3: Add Routine A 3x/week, walk 5 days, CBT catch thoughts, meditation 5 min + body scan
+Week 1: Walk 4 days, diet plan, meditation 3 min
+Week 2: Continue
+Week 3: Add Routine A 3x/week, walk 5 days, meditation 5 min + body scan
 Week 4: Add Routine B 2x/week, walk 5 days, meditation 7 min
-Week 5: CBT challenge/reframe thoughts, meditation 10 min
-Week 6+: Full routine, CBT urge surfing, continue progressing
-
-ACCOUNTABILITY
-Tell one person: friend, partner, family, walking partner, doctor, PT, online community
-Daily text: "walked 15 min today"
+Week 5: Meditation 10 min
+Week 6+: Full routine, continue progressing
 
 IF DERAILED
 Bad day: do next thing on schedule

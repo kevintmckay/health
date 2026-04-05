@@ -15,16 +15,16 @@ See walking-plan.txt for 12-week progression
 
 MEDITERRANEAN DIET FOR WEIGHT LOSS
 6ft/235lbs: losing 20-30lbs dramatically reduces spinal load and sciatica
-~130g protein/day (minimum 28g/meal for muscle preservation)
+~120-134g protein/day (minimum 26g/meal for muscle preservation)
 Mediterranean framework: fatty fish 2-3x/week, EVOO as primary fat, whole grains daily
 Legumes 3-4x/week, colorful vegetables, fruit 2-3 servings/day
 Fresh herbs liberally, fermented dairy (yogurt, small amounts feta)
-Adults 50+ need 28-30g minimum/meal to maximize muscle protein synthesis
+Adults 50+ need 25-30g minimum/meal to maximize muscle protein synthesis
 Red meat no more than 2x/month, poultry 2-3x/week
 Cut liquid calories (soda, juice, alcohol)
 Anti-inflammatory foods reduce pain and support recovery
 Track food 5 days at start to calibrate portions
-See eating-guide.txt
+See quick-reference.txt
 
 Core (McGill Big 3): curl-up, side plank, bird-dog
   Builds endurance around spine, protects against sciatica
@@ -36,24 +36,12 @@ Resistance: wall push-ups, chair squats, resistance band rows
   Without resistance training, significant weight lost will be muscle
 See core-exercises.txt
 
-CONSISTENT SLEEP (7-8 HOURS)
-Poor sleep:
-  Increases pain sensitivity (lowers sciatica threshold)
-  Impairs recovery
-  Drives hunger hormones (ghrelin up, leptin down), sabotages weight loss
-  Reduces exercise motivation and capacity
-Target 7-8 hours/night
-Consistent bed and wake times (consistency > total hours)
-Limit screens 30-60 min before bed
-See sleep-plan.txt
-
 IMPLEMENTATION SCHEDULE
-Week 1: Walking + diet + sleep + meditation + food/mood log
-Week 2: Continue, add kitchen-closes rule
+Week 1: Walking + diet + meditation
+Week 2: Continue
 Week 3: Add core + hip (Routine A, 3x/week)
 Week 4: Add resistance (Routine B, 2x/week)
 Week 5+: Full routine, continue progressing
-Week 6+: Full routine, CBT fully active
 See daily-schedule.txt
 
 LONG-TERM VIEW
@@ -62,7 +50,6 @@ Months 3-6:
   Progress exercise variations (counter push-ups, deeper squats, heavier bands)
   Weight loss continues, reassess calories if stalls
   Consider light dumbbell work if spine/hips tolerate
-  CBT skills automatic, emotional eating decreasing
 
 Months 6-12:
   Explore new activities (hiking, cycling, gym, yoga)
@@ -79,7 +66,7 @@ Beyond 12 months:
 FLARE-UP PROTOCOL
 See flare-up-protocol.txt
 Quick reference:
-  KEEP: meditation, diet, sleep, CBT logging, hydration
+  KEEP: meditation, diet, hydration
   MODIFY: walking (shorten/pause), exercises (stop if aggravate)
   RESUME: gradually, drop back 1-2 weeks in progression
   SEE DOCTOR: flare >2 weeks, numbness/weakness in foot/leg, bladder/bowel issues (emergency)
